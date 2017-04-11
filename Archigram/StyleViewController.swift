@@ -10,9 +10,16 @@ import UIKit
 
 class StyleViewController: UIViewController {
     
+    @IBOutlet weak var imageDisplay: UIImageView!
+    var imageToAnalyze: UIImage!
+
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        imageDisplay.image = imageToAnalyze
     }
     
     @IBAction func folderTap(_ sender: Any) {
