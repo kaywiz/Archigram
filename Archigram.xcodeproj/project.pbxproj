@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		B75F77971E987EF100E131EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75F77961E987EF100E131EA /* AppDelegate.swift */; };
-		B75F77991E987EF100E131EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75F77981E987EF100E131EA /* ViewController.swift */; };
+		B75F77991E987EF100E131EA /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75F77981E987EF100E131EA /* CameraViewController.swift */; };
 		B75F779C1E987EF100E131EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75F779A1E987EF100E131EA /* Main.storyboard */; };
 		B75F779E1E987EF100E131EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75F779D1E987EF100E131EA /* Assets.xcassets */; };
 		B75F77A11E987EF100E131EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75F779F1E987EF100E131EA /* LaunchScreen.storyboard */; };
 		B75F77AC1E987EF100E131EA /* ArchigramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75F77AB1E987EF100E131EA /* ArchigramTests.swift */; };
 		B75F77B71E987EF100E131EA /* ArchigramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75F77B61E987EF100E131EA /* ArchigramUITests.swift */; };
+		B75F77C61E988BD700E131EA /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75F77C51E988BD700E131EA /* CameraView.swift */; };
+		B75F77CB1E98995800E131EA /* Anders.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B75F77CA1E98995800E131EA /* Anders.ttf */; };
+		B7F74A871E9C50D1008AB9B3 /* StyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F74A861E9C50D1008AB9B3 /* StyleViewController.swift */; };
+		B7F74A891E9C510F008AB9B3 /* WikiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F74A881E9C510F008AB9B3 /* WikiViewController.swift */; };
+		B7F74A8B1E9C5122008AB9B3 /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F74A8A1E9C5122008AB9B3 /* SavedViewController.swift */; };
+		B7F74A8D1E9C5133008AB9B3 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F74A8C1E9C5133008AB9B3 /* HelpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		B75F77931E987EF100E131EA /* Archigram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Archigram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75F77961E987EF100E131EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B75F77981E987EF100E131EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B75F77981E987EF100E131EA /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		B75F779B1E987EF100E131EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B75F779D1E987EF100E131EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B75F77A01E987EF100E131EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		B75F77B21E987EF100E131EA /* ArchigramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchigramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75F77B61E987EF100E131EA /* ArchigramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchigramUITests.swift; sourceTree = "<group>"; };
 		B75F77B81E987EF100E131EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B75F77C51E988BD700E131EA /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		B75F77CA1E98995800E131EA /* Anders.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Anders.ttf; sourceTree = "<group>"; };
+		B7F74A861E9C50D1008AB9B3 /* StyleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleViewController.swift; sourceTree = "<group>"; };
+		B7F74A881E9C510F008AB9B3 /* WikiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiViewController.swift; sourceTree = "<group>"; };
+		B7F74A8A1E9C5122008AB9B3 /* SavedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
+		B7F74A8C1E9C5133008AB9B3 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +109,18 @@
 		B75F77951E987EF100E131EA /* Archigram */ = {
 			isa = PBXGroup;
 			children = (
+				B7F74A861E9C50D1008AB9B3 /* StyleViewController.swift */,
 				B75F77961E987EF100E131EA /* AppDelegate.swift */,
-				B75F77981E987EF100E131EA /* ViewController.swift */,
+				B75F77981E987EF100E131EA /* CameraViewController.swift */,
+				B75F77C51E988BD700E131EA /* CameraView.swift */,
+				B75F77CA1E98995800E131EA /* Anders.ttf */,
 				B75F779A1E987EF100E131EA /* Main.storyboard */,
 				B75F779D1E987EF100E131EA /* Assets.xcassets */,
 				B75F779F1E987EF100E131EA /* LaunchScreen.storyboard */,
 				B75F77A21E987EF100E131EA /* Info.plist */,
+				B7F74A881E9C510F008AB9B3 /* WikiViewController.swift */,
+				B7F74A8A1E9C5122008AB9B3 /* SavedViewController.swift */,
+				B7F74A8C1E9C5133008AB9B3 /* HelpViewController.swift */,
 			);
 			path = Archigram;
 			sourceTree = "<group>";
@@ -238,6 +256,7 @@
 				B75F77A11E987EF100E131EA /* LaunchScreen.storyboard in Resources */,
 				B75F779E1E987EF100E131EA /* Assets.xcassets in Resources */,
 				B75F779C1E987EF100E131EA /* Main.storyboard in Resources */,
+				B75F77CB1E98995800E131EA /* Anders.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +281,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B75F77991E987EF100E131EA /* ViewController.swift in Sources */,
+				B7F74A8D1E9C5133008AB9B3 /* HelpViewController.swift in Sources */,
+				B7F74A8B1E9C5122008AB9B3 /* SavedViewController.swift in Sources */,
+				B7F74A871E9C50D1008AB9B3 /* StyleViewController.swift in Sources */,
+				B75F77C61E988BD700E131EA /* CameraView.swift in Sources */,
+				B75F77991E987EF100E131EA /* CameraViewController.swift in Sources */,
+				B7F74A891E9C510F008AB9B3 /* WikiViewController.swift in Sources */,
 				B75F77971E987EF100E131EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +443,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3RC6X3VS33;
 				INFOPLIST_FILE = Archigram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = j.Archigram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +457,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3RC6X3VS33;
 				INFOPLIST_FILE = Archigram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = j.Archigram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +542,7 @@
 				B75F77BD1E987EF100E131EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B75F77BE1E987EF100E131EA /* Build configuration list for PBXNativeTarget "ArchigramTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +551,7 @@
 				B75F77C01E987EF100E131EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B75F77C11E987EF100E131EA /* Build configuration list for PBXNativeTarget "ArchigramUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +560,7 @@
 				B75F77C31E987EF100E131EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

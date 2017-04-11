@@ -1,25 +1,27 @@
 //
-//  ViewController.swift
+//  WikiViewController.swift
 //  Archigram
 //
-//  Created by Jack Crawford on 4/7/17.
+//  Created by Jack Crawford on 4/10/17.
 //  Copyright © 2017 Jack Crawford. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class WikiViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBAction func swipeLeft(_ sender: UISwipeGestureRecognizer) {
+        self.performSegue(withIdentifier: "backFromWiki", sender: self)
+    }
+    
 }
-
