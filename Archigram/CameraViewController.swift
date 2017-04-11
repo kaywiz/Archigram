@@ -8,12 +8,20 @@
 
 import UIKit
 
-class CameraViewController: UIViewController {
+class CameraViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
+    @IBOutlet weak var imageDisplay: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingImage image: UIImage!, editingInfo: [NSObject : AnyObject]!){
+        imageDisplay.image = image
+        self.dismiss(animated: true, completion: nil);
+    }
+    
     @IBAction func folderTap(_ sender: Any) {
         self.performSegue(withIdentifier: "cameraToSaved", sender: self)
     }
@@ -26,9 +34,17 @@ class CameraViewController: UIViewController {
         self.performSegue(withIdentifier: "cameraToHelp", sender: self)
     }
     
-    @IBAction func cameraTap(_ sender: Any) {
-        self.performSegue(withIdentifier: "chosePicture", sender: self)
+    
+    @IBAction func chooseFromLibrary(_ sender: UIButton) {
+        let picker = UIImagePickerController()
+        picker.delegate = self
+        picker.sourceType = .photoLibrary
+        present(picker, animated: true, completion: nil)
     }
+    
+    //@IBAction func cameraTap(_ sender: Any) {
+       // self.performSegue(withIdentifier: "chosePicture", sender: self)
+   // }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
