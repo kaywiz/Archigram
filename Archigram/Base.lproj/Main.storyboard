@@ -27,33 +27,46 @@
                                 <rect key="frame" x="0.0" y="110" width="414" height="626"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tQf-Y6-q5u">
-                                        <rect key="frame" x="145" y="142" width="126" height="30"/>
+                                        <rect key="frame" x="119" y="31" width="176" height="41"/>
+                                        <color key="backgroundColor" red="0.42352941179999998" green="0.82745098039999998" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="126" id="1J0-iB-2PJ"/>
+                                            <constraint firstAttribute="width" constant="176" id="cy3-Ix-O7l"/>
+                                            <constraint firstAttribute="height" constant="41" id="m01-4s-7SA"/>
                                         </constraints>
-                                        <state key="normal" title="Take New Photo"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <state key="normal" title="Take New Photo">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wTq-jH-eo4">
-                                        <rect key="frame" x="105" y="202" width="205" height="30"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qPf-EZ-CB0">
+                                        <rect key="frame" x="0.0" y="178" width="414" height="448"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="wTq-jH-eo4">
+                                        <rect key="frame" x="62" y="99" width="291" height="46"/>
+                                        <color key="backgroundColor" red="0.42352941179999998" green="0.82745098039999998" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="205" id="38U-C9-ziL"/>
+                                            <constraint firstAttribute="height" constant="46" id="LsB-HY-9Py"/>
                                         </constraints>
-                                        <state key="normal" title="Choose from Photo Library"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <state key="normal" title="Choose from Photo Library">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="chooseFromLibrary:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nas-GD-2OM"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qPf-EZ-CB0">
-                                        <rect key="frame" x="87" y="333" width="240" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="wTq-jH-eo4" firstAttribute="centerX" secondItem="M2b-0l-Fkk" secondAttribute="centerX" id="Bcm-g4-95Z"/>
-                                    <constraint firstItem="tQf-Y6-q5u" firstAttribute="top" secondItem="M2b-0l-Fkk" secondAttribute="top" constant="142" id="D1N-vW-iKJ"/>
-                                    <constraint firstItem="wTq-jH-eo4" firstAttribute="top" secondItem="tQf-Y6-q5u" secondAttribute="bottom" constant="30" id="Lt4-9O-D4L"/>
-                                    <constraint firstItem="tQf-Y6-q5u" firstAttribute="centerX" secondItem="wTq-jH-eo4" secondAttribute="centerX" id="fCB-wJ-eqA"/>
+                                    <constraint firstItem="tQf-Y6-q5u" firstAttribute="centerX" secondItem="wTq-jH-eo4" secondAttribute="centerX" id="EBZ-1z-uWy"/>
+                                    <constraint firstItem="wTq-jH-eo4" firstAttribute="top" secondItem="tQf-Y6-q5u" secondAttribute="bottom" constant="27" id="PxA-TX-aUs"/>
+                                    <constraint firstAttribute="trailing" secondItem="qPf-EZ-CB0" secondAttribute="trailing" id="d3z-F1-qc0"/>
+                                    <constraint firstItem="qPf-EZ-CB0" firstAttribute="leading" secondItem="M2b-0l-Fkk" secondAttribute="leading" id="e7n-OK-jiz"/>
+                                    <constraint firstItem="wTq-jH-eo4" firstAttribute="leading" secondItem="M2b-0l-Fkk" secondAttribute="leading" constant="62" id="fKx-TJ-x8q"/>
+                                    <constraint firstItem="qPf-EZ-CB0" firstAttribute="top" secondItem="wTq-jH-eo4" secondAttribute="bottom" constant="33" id="nlf-nd-uc5"/>
+                                    <constraint firstAttribute="bottom" secondItem="qPf-EZ-CB0" secondAttribute="bottom" id="rSW-iL-mFF"/>
+                                    <constraint firstItem="tQf-Y6-q5u" firstAttribute="top" secondItem="M2b-0l-Fkk" secondAttribute="top" constant="31" id="saN-wr-6ga"/>
+                                    <constraint firstItem="wTq-jH-eo4" firstAttribute="centerX" secondItem="qPf-EZ-CB0" secondAttribute="centerX" id="yQ5-Nm-zjP"/>
                                 </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="houseFilled" translatesAutoresizingMaskIntoConstraints="NO" id="Xvi-kF-bMR">

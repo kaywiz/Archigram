@@ -22,6 +22,13 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         self.dismiss(animated: true, completion: nil);
     }
     
+    @IBAction func chooseFromLibrary(_ sender: UIButton) {
+        let picker = UIImagePickerController()
+        picker.delegate = self
+        picker.sourceType = .photoLibrary
+        present(picker, animated: true, completion: nil)
+    }
+    
     @IBAction func folderTap(_ sender: Any) {
         self.performSegue(withIdentifier: "cameraToSaved", sender: self)
     }
@@ -34,13 +41,6 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         self.performSegue(withIdentifier: "cameraToHelp", sender: self)
     }
     
-    
-    @IBAction func chooseFromLibrary(_ sender: UIButton) {
-        let picker = UIImagePickerController()
-        picker.delegate = self
-        picker.sourceType = .photoLibrary
-        present(picker, animated: true, completion: nil)
-    }
     
     //@IBAction func cameraTap(_ sender: Any) {
        // self.performSegue(withIdentifier: "chosePicture", sender: self)
