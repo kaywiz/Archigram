@@ -13,9 +13,7 @@ class StyleViewController: UIViewController {
     @IBOutlet weak var imageDisplay: UIImageView!
     var imageToAnalyze: UIImage!
 
-    
-    
-    @IBOutlet weak var analyzedPhoto: UIImageView!
+    //@IBOutlet weak var analyzedPhoto: UIImageView!
     
     
     override func viewDidLoad() {
@@ -42,7 +40,7 @@ class StyleViewController: UIViewController {
     }
     
     @IBAction func saveButton(_ sender: Any) {
-        if let photoSave = analyzedPhoto.image {
+        if let photoSave = imageDisplay.image {
             UIImageWriteToSavedPhotosAlbum(photoSave, nil, nil, nil)
         }
     }
@@ -50,13 +48,6 @@ class StyleViewController: UIViewController {
     @IBAction func wikiButton(_ sender: Any) {
         self.performSegue(withIdentifier: "wikiClick", sender: self)
     }
-    
-    @IBAction func saveButtonTap(_ sender: Any) {
-        if let photoSave = imageDisplay.image {
-            UIImageWriteToSavedPhotosAlbum(photoSave, nil, nil, nil)
-        }
-    }
-
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
