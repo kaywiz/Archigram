@@ -45,6 +45,14 @@ class StyleViewController: UIViewController {
     @IBAction func wikiButton(_ sender: Any) {
         self.performSegue(withIdentifier: "wikiClick", sender: self)
     }
+    
+    @IBAction func saveButtonTap(_ sender: Any) {
+        if let photoSave = imageDisplay.image {
+            UIImageWriteToSavedPhotosAlbum(photoSave, nil, nil, nil)
+        }
+    }
+
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

@@ -291,6 +291,9 @@
                                         <state key="normal" title="Save Photo">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="saveButton:" destination="zZz-CP-At3" eventType="touchUpInside" id="Uso-4J-Val"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -403,6 +406,7 @@
                     </view>
                     <connections>
                         <outlet property="imageDisplay" destination="sbu-JG-hbN" id="Wod-QW-Ncy"/>
+                        <outlet property="saveButton" destination="mwW-eW-V59" id="Qsg-Ye-GNj"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="goBack" animates="NO" id="i5H-f2-qNd"/>
                         <segue destination="km5-dL-wqV" kind="presentation" identifier="wikiClick" id="1Oz-de-AFV"/>
                         <segue destination="hmW-SC-cYt" kind="show" identifier="styleToSaved" animates="NO" id="IrF-Sp-FHS"/>
@@ -737,7 +741,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="i5H-f2-qNd"/>
         <segue reference="odS-TM-fjh"/>
-        <segue reference="ZCJ-RS-4kr"/>
-        <segue reference="F9d-UN-Nnt"/>
+        <segue reference="SQS-77-tns"/>
+        <segue reference="IrF-Sp-FHS"/>
     </inferredMetricsTieBreakers>
 </document>
