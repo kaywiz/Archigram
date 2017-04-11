@@ -29,7 +29,6 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         self.dismiss(animated: true, completion: nil);
     }
     
-    @IBAction func chooseFromLibrary(_ sender: UIButton) {
         let picker = UIImagePickerController()
         picker.delegate = self
         picker.sourceType = .photoLibrary
