@@ -10,12 +10,13 @@ import UIKit
 
 class StyleViewController: UIViewController {
     
+<<<<<<< .merge_file_hu0Kme
     @IBOutlet weak var imageDisplay: UIImageView!
     var imageToAnalyze: UIImage!
 
-    
-    
+=======
     @IBOutlet weak var analyzedPhoto: UIImageView!
+>>>>>>> .merge_file_ppKlrt
     
     
     override func viewDidLoad() {
@@ -50,14 +51,6 @@ class StyleViewController: UIViewController {
     @IBAction func wikiButton(_ sender: Any) {
         self.performSegue(withIdentifier: "wikiClick", sender: self)
     }
-    
-    @IBAction func saveButtonTap(_ sender: Any) {
-        if let photoSave = imageDisplay.image {
-            UIImageWriteToSavedPhotosAlbum(photoSave, nil, nil, nil)
-        }
-    }
-
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

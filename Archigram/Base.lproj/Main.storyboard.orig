@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E154a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -291,9 +291,6 @@
                                         <state key="normal" title="Save Photo">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
-                                        <connections>
-                                            <action selector="saveButton:" destination="zZz-CP-At3" eventType="touchUpInside" id="Uso-4J-Val"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -405,8 +402,11 @@
                         </constraints>
                     </view>
                     <connections>
+<<<<<<< HEAD
                         <outlet property="imageDisplay" destination="sbu-JG-hbN" id="Wod-QW-Ncy"/>
-                        <outlet property="saveButton" destination="mwW-eW-V59" id="Qsg-Ye-GNj"/>
+=======
+                        <outlet property="analyzedPhoto" destination="sbu-JG-hbN" id="Ief-7d-bye"/>
+>>>>>>> b37ff743f7fa5c0d9228e0262d1e3b4804c9903f
                         <segue destination="BYZ-38-t0r" kind="show" identifier="goBack" animates="NO" id="i5H-f2-qNd"/>
                         <segue destination="km5-dL-wqV" kind="presentation" identifier="wikiClick" id="1Oz-de-AFV"/>
                         <segue destination="hmW-SC-cYt" kind="show" identifier="styleToSaved" animates="NO" id="IrF-Sp-FHS"/>
@@ -535,14 +535,14 @@
                                 <rect key="frame" x="0.0" y="110" width="413" height="626"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="building" translatesAutoresizingMaskIntoConstraints="NO" id="4hc-s6-DFe">
-                                        <rect key="frame" x="137" y="251" width="139" height="124"/>
+                                        <rect key="frame" x="137" y="250.66666666666669" width="139" height="124"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="124" id="l5W-9o-Hn5"/>
                                             <constraint firstAttribute="width" constant="139" id="ral-Zm-fNH"/>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kV5-wH-rBr">
-                                        <rect key="frame" x="137" y="251" width="139" height="124"/>
+                                        <rect key="frame" x="137.33333333333331" y="251" width="138.99999999999994" height="124"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="139" id="g38-Jg-DRM"/>
                                             <constraint firstAttribute="height" constant="124" id="l8V-uk-xcL"/>
@@ -685,7 +685,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="infographic" translatesAutoresizingMaskIntoConstraints="NO" id="fsX-E6-ztX">
-                                <rect key="frame" x="10" y="332" width="394" height="283"/>
+                                <rect key="frame" x="10.333333333333343" y="332" width="393.33333333333337" height="283"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="fsX-E6-ztX" secondAttribute="height" multiplier="274:197" id="Rb5-ek-1vO"/>
                                 </constraints>
@@ -739,9 +739,16 @@
         <image name="saveButton" width="31" height="37"/>
     </resources>
     <inferredMetricsTieBreakers>
+<<<<<<< HEAD
         <segue reference="i5H-f2-qNd"/>
         <segue reference="odS-TM-fjh"/>
-        <segue reference="SQS-77-tns"/>
+        <segue reference="ZCJ-RS-4kr"/>
+        <segue reference="F9d-UN-Nnt"/>
+=======
         <segue reference="IrF-Sp-FHS"/>
+        <segue reference="odS-TM-fjh"/>
+        <segue reference="i5H-f2-qNd"/>
+        <segue reference="SQS-77-tns"/>
+>>>>>>> b37ff743f7fa5c0d9228e0262d1e3b4804c9903f
     </inferredMetricsTieBreakers>
 </document>

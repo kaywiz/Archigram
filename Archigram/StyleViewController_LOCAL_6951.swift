@@ -15,9 +15,6 @@ class StyleViewController: UIViewController {
 
     
     
-    @IBOutlet weak var analyzedPhoto: UIImageView!
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -42,22 +39,12 @@ class StyleViewController: UIViewController {
     }
     
     @IBAction func saveButton(_ sender: Any) {
-        if let photoSave = analyzedPhoto.image {
-            UIImageWriteToSavedPhotosAlbum(photoSave, nil, nil, nil)
-        }
+        
     }
     
     @IBAction func wikiButton(_ sender: Any) {
         self.performSegue(withIdentifier: "wikiClick", sender: self)
     }
-    
-    @IBAction func saveButtonTap(_ sender: Any) {
-        if let photoSave = imageDisplay.image {
-            UIImageWriteToSavedPhotosAlbum(photoSave, nil, nil, nil)
-        }
-    }
-
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
