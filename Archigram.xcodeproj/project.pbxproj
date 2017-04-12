@@ -211,7 +211,7 @@
 				TargetAttributes = {
 					B75F77921E987EF100E131EA = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 3RC6X3VS33;
+						DevelopmentTeam = P82X39C4LK;
 						ProvisioningStyle = Automatic;
 					};
 					B75F77A61E987EF100E131EA = {
@@ -441,11 +441,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3RC6X3VS33;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = P82X39C4LK;
 				INFOPLIST_FILE = Archigram/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = j.Archigram;
+				PRODUCT_BUNDLE_IDENTIFIER = k.Archigram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -455,11 +456,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3RC6X3VS33;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = P82X39C4LK;
 				INFOPLIST_FILE = Archigram/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = j.Archigram;
+				PRODUCT_BUNDLE_IDENTIFIER = k.Archigram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
