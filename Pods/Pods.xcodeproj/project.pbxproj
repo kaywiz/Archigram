@@ -12,24 +12,25 @@
 		081A5B4C044DC48F4DA3ABC272FF8A37 /* ClarifaiOutputFocus.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F595FA332F5DD04D47AD88ED128AA0D /* ClarifaiOutputFocus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		099BF9CE8230267C01ED3567A67CD90B /* ClarifaiInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 5000A57ACB8BB9D725DC50C25A5597F2 /* ClarifaiInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D1FFD30267C0776FD3E88EFF51E312F /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E48507679B20165A3C0C583523033D34 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11134AB6A29A89B4D972E955CBEA6AEF /* Pods-ArchigramTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4BF39F9C69A8637DFB2D27C49DD102 /* Pods-ArchigramTests-dummy.m */; };
 		140F458AB7312414FC423FEED70A3733 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C94C283EAD27EFF818AEFCBD7355ED86 /* UIActivityIndicatorView+AFNetworking.m */; };
 		1D53331F23955E11429C3C5DFD72FD51 /* ClarifaiSearchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D5C22F78483B2BE74C911FB4058E29 /* ClarifaiSearchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DFC033CE3788DEB1F404880697CF365 /* Pods-ArchigramUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE64B0F5C7D6E28AF926E44AD9A75C6 /* Pods-ArchigramUITests-dummy.m */; };
 		1E2A6D057E20BE8F5ED3E594F7B8C286 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33EB1B1C7DD0654CAE7C7AD1F86C7E4A /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2362693061F38CDC447CA98EABB43245 /* ClarifaiConcept.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6BBFD9D060A9B350BC072E21A478CF /* ClarifaiConcept.m */; };
 		27D7C0C54A9366069C8BAE8E9F04F351 /* ClarifaiApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 4812D4D838F9484484E73F850C4E892A /* ClarifaiApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29476636EA86BEFC4CB833D3BB7A52D7 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A299B7864BE753D68D88B12C6BE325A /* AFURLRequestSerialization.m */; };
 		2B0705CC26A4CBEE32A5A60284AED35B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE002CE4DF1CDFDE9507E50FBFED557 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B097A09017A09A8FF0677CC15656ADC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB7FF3305C3F3E726189CE6DC03B4A6 /* Foundation.framework */; };
 		2C51C61BA68D1D4C02CB09AADFBE5BCD /* ClarifaiImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 09CEECE263A5BA277B43EFC4ADCEBE6E /* ClarifaiImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30F0BAE1DBB79BBB6CBD957EA8B89E4B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BF022BF820248A7DC00916D1CC4205 /* MobileCoreServices.framework */; };
 		32076D3DD644045CF79DFFEBB6BFF3F2 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D24E3FAD15099B046667E190BC8432E6 /* UIButton+AFNetworking.m */; };
+		32C456B2CE6200E52C4B14BD3C266288 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB7FF3305C3F3E726189CE6DC03B4A6 /* Foundation.framework */; };
 		332044847566BC1FE6403A0EB5921AB0 /* ClarifaiCrop.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CC405475B0088465A3B23B917F6D6D2 /* ClarifaiCrop.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		338A4A22622982AB725B22EE220DD154 /* ClarifaiOutputFace.h in Headers */ = {isa = PBXBuildFile; fileRef = 464FE33154AD98407BC59FDB4D63C4F2 /* ClarifaiOutputFace.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34BC4B7035335A6DF507822E9CEB2382 /* ClarifaiImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CBAFA601BE314B02F668069024A4F4 /* ClarifaiImage.m */; };
 		34C88657FE7ABE9F833623F94952D253 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D37243373647F17F51539511F7E6DA /* UIProgressView+AFNetworking.m */; };
 		35CBB7B255FD8D412AFCECBC4311A847 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 60EBF662E2A80F67D6061D74AC4DF774 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3655B6DD85D91C6E9357712B7F277C61 /* Clarifai-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF9F61CE3F87F8C65CE774E9106969BC /* Clarifai-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E61AD177552D183BA94DFC55108B89C /* Pods-ArchigramTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F769C7BBE8B3987CE4F9B1C6A666F5 /* Pods-ArchigramTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3FC6EFAD8417AB83277D758355ECCD49 /* ClarifaiOutputFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD05F2C13C6A19D6EE62F339B19A8CE /* ClarifaiOutputFace.m */; };
 		42AF1BB1ED090CC9E588A463441D09E3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B665811DA7B0645668081A93D378BB87 /* SystemConfiguration.framework */; };
 		4442D8453D210EFC13CFE2CAF862ED1D /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EF69176DD2930791B62468BFB4768C8 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,7 +38,7 @@
 		47CD909F7F3AE28DEFF7A11B3262679B /* ClarifaiLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = E838FBDB3F40250353D4A76BF9EE9E80 /* ClarifaiLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47F04CBDF6C54B220F6AEECEF15264D5 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AB87BD9D07BDE1ABECF65C87A19E2C1 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51047C1945103943F70BEADE83725630 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FB655BDC89C3F6B1ADFF0A20D8B2A76 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		527648DAF0A11C4DECE6E74B874AE834 /* Pods-ArchigramUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4090996083476238B3142C34309D137D /* Pods-ArchigramUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53E9612D53224E25FFD9FC9314C91A20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB7FF3305C3F3E726189CE6DC03B4A6 /* Foundation.framework */; };
 		5A1D34D104D42B1EE399E23BCD7935A0 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8277906FDF4898BFC2ECAB67DE075B /* AFURLResponseSerialization.m */; };
 		5F42D952BA5B7F5C45E73A5079F85079 /* ClarifaiOutputLogo.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DD618304158C12E77BD37499F7466A /* ClarifaiOutputLogo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60237C053C0F45E57891877E65DF1C88 /* ClarifaiGeo.h in Headers */ = {isa = PBXBuildFile; fileRef = BE0A5640C06B1065E2BABBDA537B48C1 /* ClarifaiGeo.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,7 +47,7 @@
 		649E78B5EA450FABDF5201E31F265FAB /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5670F0DBA8D0314A0F43E7A937D971B /* AFNetworkActivityIndicatorManager.m */; };
 		6573AF9ABA59AC8D1F52B07088197F71 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FDF58E0504FCAD2C257DAF9FFF511CA /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		671A4E07039065E0AD7B921135C3A593 /* ClarifaiLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = ED33CA32575C5ED4A965219D9CC81511 /* ClarifaiLocation.m */; };
-		69E5DE5674EA4405F11BA08768F89596 /* Pods-Archigram-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DEBBA2F528AEA8D4E871FF717EFC65 /* Pods-Archigram-dummy.m */; };
+		69E5DE5674EA4405F11BA08768F89596 /* Pods-Archigram-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1CFAC550778B2F3CD74043F240DC4A /* Pods-Archigram-dummy.m */; };
 		6AA7B4A5E921C6F26980B4BA6E126934 /* ClarifaiCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = AB940DF6F26FA0EB42FDCFF093EF1402 /* ClarifaiCrop.m */; };
 		6E29A9C7F596F647923EB5A150D4D8C4 /* ClarifaiModelVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = C26271D3D4318C1334C434C5914C0467 /* ClarifaiModelVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EB5F402F0E561D50C8E36E816C5BF5F /* ClarifaiOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = B3CCE5CCB25E79C2D03C198BC5D4D4D6 /* ClarifaiOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -55,9 +56,8 @@
 		7A112C0F21A62CB6F1AA8D917A6EEA6C /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DF7B082A4B224AC8D729FB35AC4EF63 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C11002FA24F277F64458B35A74437AD /* ClarifaiOutputFocus.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FE4199EB16F1E0EAEAA817FF286C35 /* ClarifaiOutputFocus.m */; };
 		7CE16B1BF75DF396768A0A3CFD968DB1 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC674A3BED9FB62CE4FD8E4F59AF74D /* UIWebView+AFNetworking.m */; };
-		82CC098F3C6C5A13C1BAF07460237FC2 /* Pods-ArchigramUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC49CFFEC8DF6AF5147D71FED4BE723 /* Pods-ArchigramUITests-dummy.m */; };
 		82D554EC9FB9A62D935B6555325F5898 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29192B1F683D403AFFD632D65221D49 /* Security.framework */; };
-		889D01A827DF62E100F7C9FF075FCDD3 /* Pods-Archigram-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4CA53DEEBD00554BB0D8F4CCF5966A0 /* Pods-Archigram-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		889D01A827DF62E100F7C9FF075FCDD3 /* Pods-Archigram-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1D6B156D86387CA33E6A76141A5808 /* Pods-Archigram-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C2F85B328C898004AA4E68C72474D0A /* ClarifaiOutputRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 85559DDF8A2605B32146C128C874E562 /* ClarifaiOutputRegion.m */; };
 		8E4608600AB08E94CFDAEFCE6E101AB4 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5461D992F0D803F0F05DF72B2849301D /* AFNetworking.framework */; };
 		8E9DCAF4376D148860018F59E4CD6B0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB7FF3305C3F3E726189CE6DC03B4A6 /* Foundation.framework */; };
@@ -69,13 +69,11 @@
 		A07BEABF55A6E926B0A120E2C59B0369 /* ClarifaiModelVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D3ACDCC2C2F36CB734F5B660701AAC /* ClarifaiModelVersion.m */; };
 		A3591DEDA776B48C026E7F9144981E58 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B09EDBE622EDA17EB031657F6FA270DC /* AFAutoPurgingImageCache.m */; };
 		A398D63C8DED664D99A864D79881A13C /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = BE47DB164DA9D2CD2EC1C193D53D8500 /* AFImageDownloader.m */; };
-		A77F3DF6B14F40DE78231BB971D3C3E6 /* Pods-ArchigramTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C38409419A6DEAB2BC6298035E0E67B /* Pods-ArchigramTests-dummy.m */; };
 		A8C297643282E0CF5E7DF9CB6E23A0D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB7FF3305C3F3E726189CE6DC03B4A6 /* Foundation.framework */; };
 		ABCDCA879566E08E1CA145EF4E5EE3A8 /* ClarifaiApp.m in Sources */ = {isa = PBXBuildFile; fileRef = A676AEDC883E0A631ABE4459D648E20A /* ClarifaiApp.m */; };
 		AE976B0E8E3DD81E4F49DBEF19D3C0AD /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9583A8A85DC52FD3E0F533905B4B72B5 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B05ABEC9608794AC6BA374475C4C3BEB /* ClarifaiSearchTerm.h in Headers */ = {isa = PBXBuildFile; fileRef = BD2816BFFF3B5F417DB13FBEBEF4E0A3 /* ClarifaiSearchTerm.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B16A078FC7FBC172A266A336AEF7F673 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1C7F0AA32BBCBFCE6C69E8FF41D359 /* UIRefreshControl+AFNetworking.m */; };
-		B3124BC15CC714F85AA56B72A99687D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB7FF3305C3F3E726189CE6DC03B4A6 /* Foundation.framework */; };
 		B5E943C8B6CD68EDD92CD573C8C0AC69 /* ResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0391FC3EB99B9E52777245EDA4B0F11B /* ResponseSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C38158FFF8529B49DF454E06209A8614 /* ClarifaiOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 074AF3A0A954D1B78D415BA88013DB28 /* ClarifaiOutput.m */; };
 		CEB2F0E229EF841D92C780C3FFDF1BEA /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9863F684026897B815891C952E09D58A /* AFSecurityPolicy.m */; };
@@ -125,96 +123,94 @@
 
 /* Begin PBXFileReference section */
 		0391FC3EB99B9E52777245EDA4B0F11B /* ResponseSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ResponseSerializer.h; path = Clarifai/Classes/ResponseSerializer.h; sourceTree = "<group>"; };
-		04C655CA21DAD60CBA2D66870B08825A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		053585DE6060840D5A3D728CE346296F /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
 		074AF3A0A954D1B78D415BA88013DB28 /* ClarifaiOutput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiOutput.m; path = Clarifai/Classes/ClarifaiOutput.m; sourceTree = "<group>"; };
 		08B854793414B598CFF652A79F12C0A6 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
 		09CEECE263A5BA277B43EFC4ADCEBE6E /* ClarifaiImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiImage.h; path = Clarifai/Classes/ClarifaiImage.h; sourceTree = "<group>"; };
 		09FBD18CCC220B64C6C7B19639BBFB06 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		0BEC1653B41981CAC891CE7BD0ADCE2C /* Pods-Archigram-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Archigram-resources.sh"; sourceTree = "<group>"; };
+		0C4BF39F9C69A8637DFB2D27C49DD102 /* Pods-ArchigramTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArchigramTests-dummy.m"; sourceTree = "<group>"; };
 		0EE002CE4DF1CDFDE9507E50FBFED557 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		0FA74DA5F37E5B139143C5BD0885F6F9 /* ClarifaiSearchTerm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiSearchTerm.m; path = Clarifai/Classes/ClarifaiSearchTerm.m; sourceTree = "<group>"; };
 		0FB13D0A78AEA797F20F97A6DA70AC44 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
-		11D1FA3757A0A011D62AC614033ABC05 /* Pods-ArchigramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArchigramTests.debug.xcconfig"; sourceTree = "<group>"; };
-		128843F65704A1834F036DE832D3C99E /* Pods-ArchigramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArchigramTests.release.xcconfig"; sourceTree = "<group>"; };
 		1311D53C5D1D1320DC5C697942088846 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		16ECD979B5A7176E5812466C7D06A348 /* Pods-Archigram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Archigram.release.xcconfig"; sourceTree = "<group>"; };
+		189B2B24029A19D2105459E98F076880 /* Pods-ArchigramUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArchigramUITests-resources.sh"; sourceTree = "<group>"; };
 		1AB87BD9D07BDE1ABECF65C87A19E2C1 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
-		1B7DA5615D36CDBC941DC507D379CD3C /* Pods-ArchigramUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArchigramUITests-resources.sh"; sourceTree = "<group>"; };
+		1C1CFAC550778B2F3CD74043F240DC4A /* Pods-Archigram-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Archigram-dummy.m"; sourceTree = "<group>"; };
 		1CC536707A4AA2F9CB48380AE95C99B2 /* ClarifaiGeo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiGeo.m; path = Clarifai/Classes/ClarifaiGeo.m; sourceTree = "<group>"; };
-		1D202C2D2EC59473D6754C22C6DCD1D9 /* Pods-ArchigramUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArchigramUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1D90FD688E1144CDBCD36C90D88A634D /* Pods-ArchigramUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArchigramUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1DF7B082A4B224AC8D729FB35AC4EF63 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		21410001C9937A2E554D9D589DDEE531 /* ClarifaiModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiModel.h; path = Clarifai/Classes/ClarifaiModel.h; sourceTree = "<group>"; };
+		235EAB96C8275823C0186F07E3E0C32B /* Pods-ArchigramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArchigramTests.release.xcconfig"; sourceTree = "<group>"; };
 		23AF288C6FF2449065477AA25BA17311 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25D5C22F78483B2BE74C911FB4058E29 /* ClarifaiSearchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiSearchResult.h; path = Clarifai/Classes/ClarifaiSearchResult.h; sourceTree = "<group>"; };
-		2891315DCD991D3AA3371D777604D7E7 /* Pods-ArchigramTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArchigramTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		29EB3A39F8759924D64B5FDF0BE9CC74 /* Pods-ArchigramUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ArchigramUITests.modulemap"; sourceTree = "<group>"; };
-		2E9CD9F4D76F0D73F9E022EE66A4B1A4 /* Pods-Archigram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Archigram.release.xcconfig"; sourceTree = "<group>"; };
+		2C1B2AB3F0326ED75B5ACB1B2D747B06 /* Pods-ArchigramUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArchigramUITests-frameworks.sh"; sourceTree = "<group>"; };
+		2CF034E8B82944B68C9986442869E23B /* libPods-ArchigramUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ArchigramUITests.a"; path = "libPods-ArchigramUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F595FA332F5DD04D47AD88ED128AA0D /* ClarifaiOutputFocus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiOutputFocus.h; path = Clarifai/Classes/ClarifaiOutputFocus.h; sourceTree = "<group>"; };
 		2FDF58E0504FCAD2C257DAF9FFF511CA /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		33EB1B1C7DD0654CAE7C7AD1F86C7E4A /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
 		3621D0396632A434EBEE53284C9DB696 /* Clarifai-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Clarifai-prefix.pch"; sourceTree = "<group>"; };
-		38DEBBA2F528AEA8D4E871FF717EFC65 /* Pods-Archigram-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Archigram-dummy.m"; sourceTree = "<group>"; };
-		3D27C8A53DBC159F6A7B930F84087616 /* Pods-ArchigramTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArchigramTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3E1C7F0AA32BBCBFCE6C69E8FF41D359 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		4004B103F0E877EC344CFE4FD8B3525E /* Pods-Archigram-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Archigram-acknowledgements.plist"; sourceTree = "<group>"; };
 		4060B6A444AD926EE3FE2FC81A8E5567 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		4090996083476238B3142C34309D137D /* Pods-ArchigramUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArchigramUITests-umbrella.h"; sourceTree = "<group>"; };
 		43FEFA0D1DF5629BA965D7F4310D5245 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		464FE33154AD98407BC59FDB4D63C4F2 /* ClarifaiOutputFace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiOutputFace.h; path = Clarifai/Classes/ClarifaiOutputFace.h; sourceTree = "<group>"; };
+		480B1D65A5DF698A84F1B88F75AD48E3 /* Pods-Archigram.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Archigram.modulemap"; sourceTree = "<group>"; };
 		4812D4D838F9484484E73F850C4E892A /* ClarifaiApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiApp.h; path = Clarifai/Classes/ClarifaiApp.h; sourceTree = "<group>"; };
-		4B93A791E6D231B0E3DDB39BDBC1A709 /* Clarifai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Clarifai.framework; path = Clarifai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC405475B0088465A3B23B917F6D6D2 /* ClarifaiCrop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiCrop.h; path = Clarifai/Classes/ClarifaiCrop.h; sourceTree = "<group>"; };
-		4CE9D8466C74E3C59BAEAAC342DAC6DC /* Pods-ArchigramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArchigramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5000A57ACB8BB9D725DC50C25A5597F2 /* ClarifaiInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiInput.h; path = Clarifai/Classes/ClarifaiInput.h; sourceTree = "<group>"; };
-		538C78D5BFA5502D755EF0622D2961B0 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A3C24DEE3AEF312BB17A6492B15B26 /* Pods-ArchigramTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArchigramTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5180BC4A7D7BF07DE7BCD6AD22D2770A /* Pods-ArchigramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArchigramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5414BA7DF4C6264380364AC8A1CBEB38 /* Clarifai.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Clarifai.xcconfig; sourceTree = "<group>"; };
 		5461D992F0D803F0F05DF72B2849301D /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		551561A6E3E0B05998DF4268DFA398B1 /* Pods-ArchigramTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArchigramTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		556C6C4A749F47C827396BD79A8C71F0 /* Clarifai.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Clarifai.modulemap; sourceTree = "<group>"; };
 		55D3ACDCC2C2F36CB734F5B660701AAC /* ClarifaiModelVersion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiModelVersion.m; path = Clarifai/Classes/ClarifaiModelVersion.m; sourceTree = "<group>"; };
-		56F769C7BBE8B3987CE4F9B1C6A666F5 /* Pods-ArchigramTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArchigramTests-umbrella.h"; sourceTree = "<group>"; };
-		5E957A90737161BF6FB991C8A584B9E6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5EC49CFFEC8DF6AF5147D71FED4BE723 /* Pods-ArchigramUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArchigramUITests-dummy.m"; sourceTree = "<group>"; };
+		5942627BF221C24988AA9A7AF42E063E /* Pods-ArchigramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArchigramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5ACFF34C8ACDF2AD71A1A93DE9B59EB0 /* Pods-ArchigramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArchigramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		60EBF662E2A80F67D6061D74AC4DF774 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		640AD7425EF77B4AD5EB5BC4228189C2 /* ClarifaiSearchResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiSearchResult.m; path = Clarifai/Classes/ClarifaiSearchResult.m; sourceTree = "<group>"; };
 		6A299B7864BE753D68D88B12C6BE325A /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		6A8277906FDF4898BFC2ECAB67DE075B /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		6AD05F2C13C6A19D6EE62F339B19A8CE /* ClarifaiOutputFace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiOutputFace.m; path = Clarifai/Classes/ClarifaiOutputFace.m; sourceTree = "<group>"; };
+		6E30730CD57AD9D9639A9FDF5F1968DC /* Clarifai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Clarifai.framework; path = Clarifai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		720F2EF7A979F746187FB5B4F575395D /* ClarifaiInput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiInput.m; path = Clarifai/Classes/ClarifaiInput.m; sourceTree = "<group>"; };
 		72BF022BF820248A7DC00916D1CC4205 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		7447A4B7E3DE9AC2B5261B56D0C0AD62 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		7624D0CF3FF9AD39B8773F9CB30A85A6 /* NSArray+Clarifai.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Clarifai.m"; path = "Clarifai/Classes/NSArray+Clarifai.m"; sourceTree = "<group>"; };
-		7C38409419A6DEAB2BC6298035E0E67B /* Pods-ArchigramTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArchigramTests-dummy.m"; sourceTree = "<group>"; };
 		80AA49092BE80207CDA1625477010205 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		80ED8981464E241808FBB0EC491F9E1A /* ClarifaiConcept.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiConcept.h; path = Clarifai/Classes/ClarifaiConcept.h; sourceTree = "<group>"; };
-		8205686511AB65A8793DD01BCB0704C8 /* Pods-Archigram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Archigram.debug.xcconfig"; sourceTree = "<group>"; };
+		840DB0B544484F01B8A1E142A130A65A /* libPods-ArchigramTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ArchigramTests.a"; path = "libPods-ArchigramTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85559DDF8A2605B32146C128C874E562 /* ClarifaiOutputRegion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiOutputRegion.m; path = Clarifai/Classes/ClarifaiOutputRegion.m; sourceTree = "<group>"; };
 		866565701DA29A05998BFC1EDD6C7C79 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		8899DF780532E1BDEFEE24EA4B731484 /* Pods-Archigram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Archigram.debug.xcconfig"; sourceTree = "<group>"; };
 		88D37243373647F17F51539511F7E6DA /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		898A0578C71C59EDD1F45D5D03D88724 /* NSArray+Clarifai.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Clarifai.h"; path = "Clarifai/Classes/NSArray+Clarifai.h"; sourceTree = "<group>"; };
 		8CC674A3BED9FB62CE4FD8E4F59AF74D /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		8E265DE77409EC2E26D62E5478C52B4E /* ClarifaiConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiConstants.h; path = Clarifai/Classes/ClarifaiConstants.h; sourceTree = "<group>"; };
 		8EF69176DD2930791B62468BFB4768C8 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		8F2DDE438DB838ADF9C3B8B0839699F5 /* Pods_ArchigramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ArchigramUITests.framework; path = "Pods-ArchigramUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		90AB11C87A3893783E874A2356263A91 /* Pods-ArchigramTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArchigramTests-resources.sh"; sourceTree = "<group>"; };
+		934398C46BF74E46F1A0D73426AF04D6 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93CBAFA601BE314B02F668069024A4F4 /* ClarifaiImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiImage.m; path = Clarifai/Classes/ClarifaiImage.m; sourceTree = "<group>"; };
 		9583A8A85DC52FD3E0F533905B4B72B5 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		966C3A40D299CEE128AD6C9AEAE436EF /* Pods-Archigram-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Archigram-acknowledgements.plist"; sourceTree = "<group>"; };
 		970B002353C5B4D999BC352C10E9444B /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		9863F684026897B815891C952E09D58A /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		9B877BA72C5AD4FB54C1F73FF867071A /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		9BE64B0F5C7D6E28AF926E44AD9A75C6 /* Pods-ArchigramUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArchigramUITests-dummy.m"; sourceTree = "<group>"; };
+		9CAD5D4D61368E37D875334597EA6AE6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FB655BDC89C3F6B1ADFF0A20D8B2A76 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		A1B4D28986FA9353E29D946A03BCEF8B /* Pods-ArchigramUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArchigramUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A676AEDC883E0A631ABE4459D648E20A /* ClarifaiApp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiApp.m; path = Clarifai/Classes/ClarifaiApp.m; sourceTree = "<group>"; };
+		A815ACE6EF0CC6C8A6AF6F79A2113BC0 /* Pods-ArchigramTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArchigramTests-frameworks.sh"; sourceTree = "<group>"; };
 		A84DFC625D334B1A2FB811466A967187 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AFNetworking.modulemap; sourceTree = "<group>"; };
-		A9E0E935B7D37771BA5607E7729CA030 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAB7FF3305C3F3E726189CE6DC03B4A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		AB940DF6F26FA0EB42FDCFF093EF1402 /* ClarifaiCrop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiCrop.m; path = Clarifai/Classes/ClarifaiCrop.m; sourceTree = "<group>"; };
+		AC0D5F9105C807B6D0A1D17848280E4E /* Pods_Archigram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Archigram.framework; path = "Pods-Archigram.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF9F61CE3F87F8C65CE774E9106969BC /* Clarifai-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Clarifai-umbrella.h"; sourceTree = "<group>"; };
 		B09EDBE622EDA17EB031657F6FA270DC /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
 		B3CCE5CCB25E79C2D03C198BC5D4D4D6 /* ClarifaiOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiOutput.h; path = Clarifai/Classes/ClarifaiOutput.h; sourceTree = "<group>"; };
 		B665811DA7B0645668081A93D378BB87 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		B72760BAC469CA211E755D0373AD08EB /* Pods_Archigram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Archigram.framework; path = "Pods-Archigram.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B93ADCF810F7BA027D1CD44F890FAE2E /* ClarifaiOutputRegion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiOutputRegion.h; path = Clarifai/Classes/ClarifaiOutputRegion.h; sourceTree = "<group>"; };
-		BBDDD40D88E91BDAA66EE6B996A22A88 /* Pods-Archigram-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Archigram-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BD2816BFFF3B5F417DB13FBEBEF4E0A3 /* ClarifaiSearchTerm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiSearchTerm.h; path = Clarifai/Classes/ClarifaiSearchTerm.h; sourceTree = "<group>"; };
 		BE0A5640C06B1065E2BABBDA537B48C1 /* ClarifaiGeo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiGeo.h; path = Clarifai/Classes/ClarifaiGeo.h; sourceTree = "<group>"; };
 		BE47DB164DA9D2CD2EC1C193D53D8500 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
@@ -222,32 +218,28 @@
 		BEAA2896C0F3DE743E13BA30642E91F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		C26271D3D4318C1334C434C5914C0467 /* ClarifaiModelVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiModelVersion.h; path = Clarifai/Classes/ClarifaiModelVersion.h; sourceTree = "<group>"; };
 		C29192B1F683D403AFFD632D65221D49 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		C5527BE43B26A5F8B20812380A6BC408 /* Pods-ArchigramTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArchigramTests-frameworks.sh"; sourceTree = "<group>"; };
 		C94C283EAD27EFF818AEFCBD7355ED86 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
 		CB6A4CEB8FF264420069BC4194F3A8AB /* ClarifaiModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiModel.m; path = Clarifai/Classes/ClarifaiModel.m; sourceTree = "<group>"; };
 		CD9B10123183DA38ADE8C9D93172E461 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		CDDBA489AA5EA0858B81C4762A099579 /* Pods-ArchigramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArchigramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D24E3FAD15099B046667E190BC8432E6 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		D3A4ACCB9B6394503780D2E5050C3C90 /* Pods_ArchigramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ArchigramTests.framework; path = "Pods-ArchigramTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D481DD484BA0B5D3925BF8828A1DDF1E /* Pods-Archigram.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Archigram.modulemap"; sourceTree = "<group>"; };
 		D570B1594E7CFBCE74B19FE6103A7823 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		D8B85B38B1710CABFEE9457CD1EF45F2 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		DB15CA3C4B4354B53017793413A0034E /* Pods-Archigram-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Archigram-resources.sh"; sourceTree = "<group>"; };
-		DB3E4F0BE0EBC4802F2CDA1D5615A3F9 /* Pods-ArchigramUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArchigramUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC1D6B156D86387CA33E6A76141A5808 /* Pods-Archigram-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Archigram-umbrella.h"; sourceTree = "<group>"; };
+		DDC34AB320AD4A5686E63F9B4DDB5863 /* Pods-ArchigramUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArchigramUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DF934DFE103130D608E7E6823481AE4E /* Pods-Archigram-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Archigram-frameworks.sh"; sourceTree = "<group>"; };
+		DFE5A3861D40691D7ACF8ADB59393B36 /* Pods-ArchigramTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArchigramTests-resources.sh"; sourceTree = "<group>"; };
 		E47D7C713FCA412BAE5759E724F6BFA1 /* ResponseSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ResponseSerializer.m; path = Clarifai/Classes/ResponseSerializer.m; sourceTree = "<group>"; };
 		E48507679B20165A3C0C583523033D34 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		E838FBDB3F40250353D4A76BF9EE9E80 /* ClarifaiLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiLocation.h; path = Clarifai/Classes/ClarifaiLocation.h; sourceTree = "<group>"; };
 		ED33CA32575C5ED4A965219D9CC81511 /* ClarifaiLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiLocation.m; path = Clarifai/Classes/ClarifaiLocation.m; sourceTree = "<group>"; };
 		F0E5A1A76296C7B1351CAB0DDB28CF16 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		F4B4A11C2D355AC80D18A730A319534E /* Pods-ArchigramTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ArchigramTests.modulemap"; sourceTree = "<group>"; };
-		F4CA53DEEBD00554BB0D8F4CCF5966A0 /* Pods-Archigram-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Archigram-umbrella.h"; sourceTree = "<group>"; };
 		F5670F0DBA8D0314A0F43E7A937D971B /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 		F5FE4199EB16F1E0EAEAA817FF286C35 /* ClarifaiOutputFocus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiOutputFocus.m; path = Clarifai/Classes/ClarifaiOutputFocus.m; sourceTree = "<group>"; };
 		F6DD618304158C12E77BD37499F7466A /* ClarifaiOutputLogo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiOutputLogo.h; path = Clarifai/Classes/ClarifaiOutputLogo.h; sourceTree = "<group>"; };
+		F87538A6FE6F96202D9A70CCD4B888F8 /* Pods-Archigram-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Archigram-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F977E6FA9693319EF098A8FFE0D91B29 /* Clarifai-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Clarifai-dummy.m"; sourceTree = "<group>"; };
 		FA6BBFD9D060A9B350BC072E21A478CF /* ClarifaiConcept.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiConcept.m; path = Clarifai/Classes/ClarifaiConcept.m; sourceTree = "<group>"; };
 		FA85AAF09CA3BDD276BAC6A358BC0CAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC516A040647571873E9943A8642CDF2 /* Pods-Archigram-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Archigram-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +249,14 @@
 			files = (
 				8E4608600AB08E94CFDAEFCE6E101AB4 /* AFNetworking.framework in Frameworks */,
 				F46CEC856AB72C4C6A19A37A1078A034 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E81C640DDA8F9007E2B237C6A0ABFA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C456B2CE6200E52C4B14BD3C266288 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,43 +280,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FA5EAACA2C11A8418C17C8EBD2C9BAF /* Frameworks */ = {
+		944B1CB8A50EC0477F61C6DC7A0777A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3124BC15CC714F85AA56B72A99687D7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EED5DA4553F8AE2ADE0A4D9DEB2E970C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2B097A09017A09A8FF0677CC15656ADC /* Foundation.framework in Frameworks */,
+				53E9612D53224E25FFD9FC9314C91A20 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0712511FBFF9539A5610DD71FC12F35A /* Pods-Archigram */ = {
-			isa = PBXGroup;
-			children = (
-				04C655CA21DAD60CBA2D66870B08825A /* Info.plist */,
-				D481DD484BA0B5D3925BF8828A1DDF1E /* Pods-Archigram.modulemap */,
-				BBDDD40D88E91BDAA66EE6B996A22A88 /* Pods-Archigram-acknowledgements.markdown */,
-				4004B103F0E877EC344CFE4FD8B3525E /* Pods-Archigram-acknowledgements.plist */,
-				38DEBBA2F528AEA8D4E871FF717EFC65 /* Pods-Archigram-dummy.m */,
-				FC516A040647571873E9943A8642CDF2 /* Pods-Archigram-frameworks.sh */,
-				DB15CA3C4B4354B53017793413A0034E /* Pods-Archigram-resources.sh */,
-				F4CA53DEEBD00554BB0D8F4CCF5966A0 /* Pods-Archigram-umbrella.h */,
-				8205686511AB65A8793DD01BCB0704C8 /* Pods-Archigram.debug.xcconfig */,
-				2E9CD9F4D76F0D73F9E022EE66A4B1A4 /* Pods-Archigram.release.xcconfig */,
-			);
-			name = "Pods-Archigram";
-			path = "Target Support Files/Pods-Archigram";
-			sourceTree = "<group>";
-		};
 		0BF7FC27F7DE0250CDDC20C691118BB4 /* Security */ = {
 			isa = PBXGroup;
 			children = (
@@ -324,6 +298,21 @@
 				9863F684026897B815891C952E09D58A /* AFSecurityPolicy.m */,
 			);
 			name = Security;
+			sourceTree = "<group>";
+		};
+		1BC54CFF8F769C81DD64D51BBE6F7F0E /* Pods-ArchigramTests */ = {
+			isa = PBXGroup;
+			children = (
+				551561A6E3E0B05998DF4268DFA398B1 /* Pods-ArchigramTests-acknowledgements.markdown */,
+				50A3C24DEE3AEF312BB17A6492B15B26 /* Pods-ArchigramTests-acknowledgements.plist */,
+				0C4BF39F9C69A8637DFB2D27C49DD102 /* Pods-ArchigramTests-dummy.m */,
+				A815ACE6EF0CC6C8A6AF6F79A2113BC0 /* Pods-ArchigramTests-frameworks.sh */,
+				DFE5A3861D40691D7ACF8ADB59393B36 /* Pods-ArchigramTests-resources.sh */,
+				5942627BF221C24988AA9A7AF42E063E /* Pods-ArchigramTests.debug.xcconfig */,
+				235EAB96C8275823C0186F07E3E0C32B /* Pods-ArchigramTests.release.xcconfig */,
+			);
+			name = "Pods-ArchigramTests";
+			path = "Target Support Files/Pods-ArchigramTests";
 			sourceTree = "<group>";
 		};
 		2833F37715031CF8D5C20DA51A842760 /* Clarifai */ = {
@@ -372,19 +361,16 @@
 			path = Clarifai;
 			sourceTree = "<group>";
 		};
-		322FB6F065BE4BC77A0FF51A74D7F3B5 /* Pods-ArchigramUITests */ = {
+		39F60F7F4A654238CC63E0370CC486DF /* Pods-ArchigramUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5E957A90737161BF6FB991C8A584B9E6 /* Info.plist */,
-				29EB3A39F8759924D64B5FDF0BE9CC74 /* Pods-ArchigramUITests.modulemap */,
-				A1B4D28986FA9353E29D946A03BCEF8B /* Pods-ArchigramUITests-acknowledgements.markdown */,
-				DB3E4F0BE0EBC4802F2CDA1D5615A3F9 /* Pods-ArchigramUITests-acknowledgements.plist */,
-				5EC49CFFEC8DF6AF5147D71FED4BE723 /* Pods-ArchigramUITests-dummy.m */,
-				1D202C2D2EC59473D6754C22C6DCD1D9 /* Pods-ArchigramUITests-frameworks.sh */,
-				1B7DA5615D36CDBC941DC507D379CD3C /* Pods-ArchigramUITests-resources.sh */,
-				4090996083476238B3142C34309D137D /* Pods-ArchigramUITests-umbrella.h */,
-				4CE9D8466C74E3C59BAEAAC342DAC6DC /* Pods-ArchigramUITests.debug.xcconfig */,
-				CDDBA489AA5EA0858B81C4762A099579 /* Pods-ArchigramUITests.release.xcconfig */,
+				DDC34AB320AD4A5686E63F9B4DDB5863 /* Pods-ArchigramUITests-acknowledgements.markdown */,
+				1D90FD688E1144CDBCD36C90D88A634D /* Pods-ArchigramUITests-acknowledgements.plist */,
+				9BE64B0F5C7D6E28AF926E44AD9A75C6 /* Pods-ArchigramUITests-dummy.m */,
+				2C1B2AB3F0326ED75B5ACB1B2D747B06 /* Pods-ArchigramUITests-frameworks.sh */,
+				189B2B24029A19D2105459E98F076880 /* Pods-ArchigramUITests-resources.sh */,
+				5ACFF34C8ACDF2AD71A1A93DE9B59EB0 /* Pods-ArchigramUITests.debug.xcconfig */,
+				5180BC4A7D7BF07DE7BCD6AD22D2770A /* Pods-ArchigramUITests.release.xcconfig */,
 			);
 			name = "Pods-ArchigramUITests";
 			path = "Target Support Files/Pods-ArchigramUITests";
@@ -455,9 +441,39 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				EFC8D1216166DE80CF4A6175E6193664 /* Frameworks */,
 				5916FE1C79838425F84CCDF4300C7809 /* Pods */,
-				EAB3371ED6C3209DB1A269443FCE60D3 /* Products */,
-				FCFD7F8E2D04B7B7C9D6D7AD8CCB9CF9 /* Targets Support Files */,
+				91456357727C147DE797E12CC5A7E700 /* Products */,
+				BF2DD9CDA8D871DFAFC1EB72A3ED279F /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		87EC6433B08E5A3DFD23E3E1AB77F4C9 /* Pods-Archigram */ = {
+			isa = PBXGroup;
+			children = (
+				9CAD5D4D61368E37D875334597EA6AE6 /* Info.plist */,
+				480B1D65A5DF698A84F1B88F75AD48E3 /* Pods-Archigram.modulemap */,
+				F87538A6FE6F96202D9A70CCD4B888F8 /* Pods-Archigram-acknowledgements.markdown */,
+				966C3A40D299CEE128AD6C9AEAE436EF /* Pods-Archigram-acknowledgements.plist */,
+				1C1CFAC550778B2F3CD74043F240DC4A /* Pods-Archigram-dummy.m */,
+				DF934DFE103130D608E7E6823481AE4E /* Pods-Archigram-frameworks.sh */,
+				0BEC1653B41981CAC891CE7BD0ADCE2C /* Pods-Archigram-resources.sh */,
+				DC1D6B156D86387CA33E6A76141A5808 /* Pods-Archigram-umbrella.h */,
+				8899DF780532E1BDEFEE24EA4B731484 /* Pods-Archigram.debug.xcconfig */,
+				16ECD979B5A7176E5812466C7D06A348 /* Pods-Archigram.release.xcconfig */,
+			);
+			name = "Pods-Archigram";
+			path = "Target Support Files/Pods-Archigram";
+			sourceTree = "<group>";
+		};
+		91456357727C147DE797E12CC5A7E700 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				934398C46BF74E46F1A0D73426AF04D6 /* AFNetworking.framework */,
+				6E30730CD57AD9D9639A9FDF5F1968DC /* Clarifai.framework */,
+				840DB0B544484F01B8A1E142A130A65A /* libPods-ArchigramTests.a */,
+				2CF034E8B82944B68C9986442869E23B /* libPods-ArchigramUITests.a */,
+				AC0D5F9105C807B6D0A1D17848280E4E /* Pods_Archigram.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		A53FCCB6E1D273775C742F272E97BEC9 /* NSURLSession */ = {
@@ -509,22 +525,14 @@
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
-		C06654A85FAD15A0CEE15AA822FAE4CA /* Pods-ArchigramTests */ = {
+		BF2DD9CDA8D871DFAFC1EB72A3ED279F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A9E0E935B7D37771BA5607E7729CA030 /* Info.plist */,
-				F4B4A11C2D355AC80D18A730A319534E /* Pods-ArchigramTests.modulemap */,
-				3D27C8A53DBC159F6A7B930F84087616 /* Pods-ArchigramTests-acknowledgements.markdown */,
-				2891315DCD991D3AA3371D777604D7E7 /* Pods-ArchigramTests-acknowledgements.plist */,
-				7C38409419A6DEAB2BC6298035E0E67B /* Pods-ArchigramTests-dummy.m */,
-				C5527BE43B26A5F8B20812380A6BC408 /* Pods-ArchigramTests-frameworks.sh */,
-				90AB11C87A3893783E874A2356263A91 /* Pods-ArchigramTests-resources.sh */,
-				56F769C7BBE8B3987CE4F9B1C6A666F5 /* Pods-ArchigramTests-umbrella.h */,
-				11D1FA3757A0A011D62AC614033ABC05 /* Pods-ArchigramTests.debug.xcconfig */,
-				128843F65704A1834F036DE832D3C99E /* Pods-ArchigramTests.release.xcconfig */,
+				87EC6433B08E5A3DFD23E3E1AB77F4C9 /* Pods-Archigram */,
+				1BC54CFF8F769C81DD64D51BBE6F7F0E /* Pods-ArchigramTests */,
+				39F60F7F4A654238CC63E0370CC486DF /* Pods-ArchigramUITests */,
 			);
-			name = "Pods-ArchigramTests";
-			path = "Target Support Files/Pods-ArchigramTests";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		D0946CA24CA4F1C1A94C5E187FCEC587 /* Support Files */ = {
@@ -541,18 +549,6 @@
 			path = "../Target Support Files/Clarifai";
 			sourceTree = "<group>";
 		};
-		EAB3371ED6C3209DB1A269443FCE60D3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				538C78D5BFA5502D755EF0622D2961B0 /* AFNetworking.framework */,
-				4B93A791E6D231B0E3DDB39BDBC1A709 /* Clarifai.framework */,
-				B72760BAC469CA211E755D0373AD08EB /* Pods_Archigram.framework */,
-				D3A4ACCB9B6394503780D2E5050C3C90 /* Pods_ArchigramTests.framework */,
-				8F2DDE438DB838ADF9C3B8B0839699F5 /* Pods_ArchigramUITests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		EFC8D1216166DE80CF4A6175E6193664 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -560,16 +556,6 @@
 				58ADEC1A744624280C424466F85276D6 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FCFD7F8E2D04B7B7C9D6D7AD8CCB9CF9 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0712511FBFF9539A5610DD71FC12F35A /* Pods-Archigram */,
-				C06654A85FAD15A0CEE15AA822FAE4CA /* Pods-ArchigramTests */,
-				322FB6F065BE4BC77A0FF51A74D7F3B5 /* Pods-ArchigramUITests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -580,14 +566,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				889D01A827DF62E100F7C9FF075FCDD3 /* Pods-Archigram-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7E17B98CA82EC4CB7604239BDADA250C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3E61AD177552D183BA94DFC55108B89C /* Pods-ArchigramTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,14 +593,6 @@
 				B05ABEC9608794AC6BA374475C4C3BEB /* ClarifaiSearchTerm.h in Headers */,
 				00352DE05A40FAC78CC5DE3F3E7618D1 /* NSArray+Clarifai.h in Headers */,
 				B5E943C8B6CD68EDD92CD573C8C0AC69 /* ResponseSerializer.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		89D00EF9D7ED29FAA1B01EEAC096D18B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				527648DAF0A11C4DECE6E74B874AE834 /* Pods-ArchigramUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -671,7 +641,7 @@
 			);
 			name = "Pods-Archigram";
 			productName = "Pods-Archigram";
-			productReference = B72760BAC469CA211E755D0373AD08EB /* Pods_Archigram.framework */;
+			productReference = AC0D5F9105C807B6D0A1D17848280E4E /* Pods_Archigram.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5C056DB68732226EBB6564BC9AC44805 /* Clarifai */ = {
@@ -689,41 +659,7 @@
 			);
 			name = Clarifai;
 			productName = Clarifai;
-			productReference = 4B93A791E6D231B0E3DDB39BDBC1A709 /* Clarifai.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		5E4C5FED834E71A7FBF9E8C3653BA8CC /* Pods-ArchigramUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2ADCB222F78F42508A7417CAA3A390BB /* Build configuration list for PBXNativeTarget "Pods-ArchigramUITests" */;
-			buildPhases = (
-				A964059994E24FD3CDFC4F145968B78C /* Sources */,
-				EED5DA4553F8AE2ADE0A4D9DEB2E970C /* Frameworks */,
-				89D00EF9D7ED29FAA1B01EEAC096D18B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-ArchigramUITests";
-			productName = "Pods-ArchigramUITests";
-			productReference = 8F2DDE438DB838ADF9C3B8B0839699F5 /* Pods_ArchigramUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		AC6E16FF657027B62F6DD8FF578AC0CE /* Pods-ArchigramTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7E450056EBBCEAB7882832D4684E9046 /* Build configuration list for PBXNativeTarget "Pods-ArchigramTests" */;
-			buildPhases = (
-				2BB762ADD49B406670EA292216FF17E0 /* Sources */,
-				6FA5EAACA2C11A8418C17C8EBD2C9BAF /* Frameworks */,
-				7E17B98CA82EC4CB7604239BDADA250C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-ArchigramTests";
-			productName = "Pods-ArchigramTests";
-			productReference = D3A4ACCB9B6394503780D2E5050C3C90 /* Pods_ArchigramTests.framework */;
+			productReference = 6E30730CD57AD9D9639A9FDF5F1968DC /* Clarifai.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */ = {
@@ -740,8 +676,40 @@
 			);
 			name = AFNetworking;
 			productName = AFNetworking;
-			productReference = 538C78D5BFA5502D755EF0622D2961B0 /* AFNetworking.framework */;
+			productReference = 934398C46BF74E46F1A0D73426AF04D6 /* AFNetworking.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		EEEFDB13913EDF9421DE79DD87088AB7 /* Pods-ArchigramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18091894733673BDF7FFF44E0DDBCC35 /* Build configuration list for PBXNativeTarget "Pods-ArchigramUITests" */;
+			buildPhases = (
+				82AEC7127E14F67BFE507A12DC1024FE /* Sources */,
+				2E81C640DDA8F9007E2B237C6A0ABFA5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ArchigramUITests";
+			productName = "Pods-ArchigramUITests";
+			productReference = 2CF034E8B82944B68C9986442869E23B /* libPods-ArchigramUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F293FCC1EF753E2D47028EF6DB743492 /* Pods-ArchigramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01305FAA5A2F7F05CC448BEB8B49EFAC /* Build configuration list for PBXNativeTarget "Pods-ArchigramTests" */;
+			buildPhases = (
+				1680B868372F942044CFD6571A405EF0 /* Sources */,
+				944B1CB8A50EC0477F61C6DC7A0777A1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ArchigramTests";
+			productName = "Pods-ArchigramTests";
+			productReference = 840DB0B544484F01B8A1E142A130A65A /* libPods-ArchigramTests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -760,25 +728,25 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = EAB3371ED6C3209DB1A269443FCE60D3 /* Products */;
+			productRefGroup = 91456357727C147DE797E12CC5A7E700 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */,
 				5C056DB68732226EBB6564BC9AC44805 /* Clarifai */,
 				27A47864EB7ACC1F50154B5A50549D62 /* Pods-Archigram */,
-				AC6E16FF657027B62F6DD8FF578AC0CE /* Pods-ArchigramTests */,
-				5E4C5FED834E71A7FBF9E8C3653BA8CC /* Pods-ArchigramUITests */,
+				F293FCC1EF753E2D47028EF6DB743492 /* Pods-ArchigramTests */,
+				EEEFDB13913EDF9421DE79DD87088AB7 /* Pods-ArchigramUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2BB762ADD49B406670EA292216FF17E0 /* Sources */ = {
+		1680B868372F942044CFD6571A405EF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A77F3DF6B14F40DE78231BB971D3C3E6 /* Pods-ArchigramTests-dummy.m in Sources */,
+				11134AB6A29A89B4D972E955CBEA6AEF /* Pods-ArchigramTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -813,11 +781,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A964059994E24FD3CDFC4F145968B78C /* Sources */ = {
+		82AEC7127E14F67BFE507A12DC1024FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82CC098F3C6C5A13C1BAF07460237FC2 /* Pods-ArchigramUITests-dummy.m in Sources */,
+				1DFC033CE3788DEB1F404880697CF365 /* Pods-ArchigramUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -871,41 +839,28 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1985E663C5F76401BCD7E7E2151FC4D3 /* Release */ = {
+		06F37129B622C661BD3BB4AC3B1A4320 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDDBA489AA5EA0858B81C4762A099579 /* Pods-ArchigramUITests.release.xcconfig */;
+			baseConfigurationReference = 5ACFF34C8ACDF2AD71A1A93DE9B59EB0 /* Pods-ArchigramUITests.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ArchigramUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ArchigramUITests/Pods-ArchigramUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ArchigramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		2DD310F88AC219696E5427287889ABE7 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -940,9 +895,32 @@
 			};
 			name = Release;
 		};
+		364D9FEF13CB7F4E3D18AA7AA62113B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 235EAB96C8275823C0186F07E3E0C32B /* Pods-ArchigramTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		48950F3F097BD3D40AD4708156B4126D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8205686511AB65A8793DD01BCB0704C8 /* Pods-Archigram.debug.xcconfig */;
+			baseConfigurationReference = 8899DF780532E1BDEFEE24EA4B731484 /* Pods-Archigram.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1024,75 +1002,26 @@
 			};
 			name = Debug;
 		};
-		5FE8CC3793E153114059EE4EFA18A5E8 /* Release */ = {
+		7621CF86DCC842080DA13542740E6EF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 128843F65704A1834F036DE832D3C99E /* Pods-ArchigramTests.release.xcconfig */;
+			baseConfigurationReference = 5942627BF221C24988AA9A7AF42E063E /* Pods-ArchigramTests.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ArchigramTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ArchigramTests/Pods-ArchigramTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ArchigramTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		62791B5739D5F180C7B801413619EFC8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CE9D8466C74E3C59BAEAAC342DAC6DC /* Pods-ArchigramUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ArchigramUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ArchigramUITests/Pods-ArchigramUITests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ArchigramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -1129,45 +1058,9 @@
 			};
 			name = Release;
 		};
-		86400AC98FE662570033B141BBF3EE7E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11D1FA3757A0A011D62AC614033ABC05 /* Pods-ArchigramTests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ArchigramTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ArchigramTests/Pods-ArchigramTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ArchigramTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		903D2711740F6115E40EBC3CB6E2A894 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E9CD9F4D76F0D73F9E022EE66A4B1A4 /* Pods-Archigram.release.xcconfig */;
+			baseConfigurationReference = 16ECD979B5A7176E5812466C7D06A348 /* Pods-Archigram.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1278,6 +1171,29 @@
 			};
 			name = Release;
 		};
+		E4288B80BF96D782505021F7A525B5FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5180BC4A7D7BF07DE7BCD6AD22D2770A /* Pods-ArchigramUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		F81E389613756C77408BD6270CA2625F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5414BA7DF4C6264380364AC8A1CBEB38 /* Clarifai.xcconfig */;
@@ -1314,11 +1230,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2ADCB222F78F42508A7417CAA3A390BB /* Build configuration list for PBXNativeTarget "Pods-ArchigramUITests" */ = {
+		01305FAA5A2F7F05CC448BEB8B49EFAC /* Build configuration list for PBXNativeTarget "Pods-ArchigramTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62791B5739D5F180C7B801413619EFC8 /* Debug */,
-				1985E663C5F76401BCD7E7E2151FC4D3 /* Release */,
+				7621CF86DCC842080DA13542740E6EF4 /* Debug */,
+				364D9FEF13CB7F4E3D18AA7AA62113B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18091894733673BDF7FFF44E0DDBCC35 /* Build configuration list for PBXNativeTarget "Pods-ArchigramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F37129B622C661BD3BB4AC3B1A4320 /* Debug */,
+				E4288B80BF96D782505021F7A525B5FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1346,15 +1271,6 @@
 			buildConfigurations = (
 				F81E389613756C77408BD6270CA2625F /* Debug */,
 				791FA1384C3F744D5A2BF7CE4DF1641C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7E450056EBBCEAB7882832D4684E9046 /* Build configuration list for PBXNativeTarget "Pods-ArchigramTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				86400AC98FE662570033B141BBF3EE7E /* Debug */,
-				5FE8CC3793E153114059EE4EFA18A5E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

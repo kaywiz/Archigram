@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Clarifai
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

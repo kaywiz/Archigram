@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F20DF97AE3546C0E38748C2 /* libPods-ArchigramUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45AC4CDDBC136E92882B4F16 /* libPods-ArchigramUITests.a */; };
+		4E392EE71BA16C289D018DD0 /* libPods-ArchigramTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0796A4604D2E248FED68CC5A /* libPods-ArchigramTests.a */; };
 		784FAC98EA9258BE0A60EDC6 /* Pods_Archigram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0308499EA1282F01983D9DBF /* Pods_Archigram.framework */; };
-		AB1869DDFA6F0CF78C150B4D /* Pods_ArchigramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF63D256DDAF4761DAE46E3A /* Pods_ArchigramTests.framework */; };
 		B75F77971E987EF100E131EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75F77961E987EF100E131EA /* AppDelegate.swift */; };
 		B75F77991E987EF100E131EA /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75F77981E987EF100E131EA /* CameraViewController.swift */; };
 		B75F779C1E987EF100E131EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75F779A1E987EF100E131EA /* Main.storyboard */; };
@@ -22,8 +23,6 @@
 		B7F74A891E9C510F008AB9B3 /* WikiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F74A881E9C510F008AB9B3 /* WikiViewController.swift */; };
 		B7F74A8B1E9C5122008AB9B3 /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F74A8A1E9C5122008AB9B3 /* SavedViewController.swift */; };
 		B7F74A8D1E9C5133008AB9B3 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F74A8C1E9C5133008AB9B3 /* HelpViewController.swift */; };
-		D3C3955D1EA553C800866A40 /* Archigram in Resources */ = {isa = PBXBuildFile; fileRef = D3C3955C1EA553C800866A40 /* Archigram */; };
-		E8438DCF3840297E245C981A /* Pods_ArchigramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F62A67F456CB2EB710CFCE7 /* Pods_ArchigramUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,11 +44,12 @@
 
 /* Begin PBXFileReference section */
 		0308499EA1282F01983D9DBF /* Pods_Archigram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Archigram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0796A4604D2E248FED68CC5A /* libPods-ArchigramTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArchigramTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C72E953AF83991672CFF195 /* Pods-Archigram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Archigram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Archigram/Pods-Archigram.debug.xcconfig"; sourceTree = "<group>"; };
 		2B23650CAAE5BDE80BBC438D /* Pods-Archigram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Archigram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Archigram/Pods-Archigram.release.xcconfig"; sourceTree = "<group>"; };
 		344C12486C63619081BDA673 /* Pods-ArchigramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchigramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArchigramTests/Pods-ArchigramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		45AC4CDDBC136E92882B4F16 /* libPods-ArchigramUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArchigramUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		654098C1C25E289B7D461810 /* Pods-ArchigramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchigramUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArchigramUITests/Pods-ArchigramUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		6F62A67F456CB2EB710CFCE7 /* Pods_ArchigramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArchigramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F89D6EAFF040C8048E69EB7 /* Pods-ArchigramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchigramTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArchigramTests/Pods-ArchigramTests.release.xcconfig"; sourceTree = "<group>"; };
 		8F3A4121309F4FB26CD959C2 /* Pods-ArchigramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchigramUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArchigramUITests/Pods-ArchigramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B75F77931E987EF100E131EA /* Archigram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Archigram.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,8 +71,6 @@
 		B7F74A881E9C510F008AB9B3 /* WikiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiViewController.swift; sourceTree = "<group>"; };
 		B7F74A8A1E9C5122008AB9B3 /* SavedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
 		B7F74A8C1E9C5133008AB9B3 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
-		BF63D256DDAF4761DAE46E3A /* Pods_ArchigramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArchigramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3C3955C1EA553C800866A40 /* Archigram */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Archigram; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB1869DDFA6F0CF78C150B4D /* Pods_ArchigramTests.framework in Frameworks */,
+				4E392EE71BA16C289D018DD0 /* libPods-ArchigramTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8438DCF3840297E245C981A /* Pods_ArchigramUITests.framework in Frameworks */,
+				3F20DF97AE3546C0E38748C2 /* libPods-ArchigramUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,8 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				0308499EA1282F01983D9DBF /* Pods_Archigram.framework */,
-				BF63D256DDAF4761DAE46E3A /* Pods_ArchigramTests.framework */,
-				6F62A67F456CB2EB710CFCE7 /* Pods_ArchigramUITests.framework */,
+				0796A4604D2E248FED68CC5A /* libPods-ArchigramTests.a */,
+				45AC4CDDBC136E92882B4F16 /* libPods-ArchigramUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -157,7 +155,6 @@
 				B75F77C51E988BD700E131EA /* CameraView.swift */,
 				B75F77CA1E98995800E131EA /* Anders.ttf */,
 				B75F779A1E987EF100E131EA /* Main.storyboard */,
-				D3C3955C1EA553C800866A40 /* Archigram */,
 				B75F779D1E987EF100E131EA /* Assets.xcassets */,
 				B75F779F1E987EF100E131EA /* LaunchScreen.storyboard */,
 				B75F77A21E987EF100E131EA /* Info.plist */,
@@ -305,7 +302,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3C3955D1EA553C800866A40 /* Archigram in Resources */,
 				B75F77A11E987EF100E131EA /* LaunchScreen.storyboard in Resources */,
 				B75F779E1E987EF100E131EA /* Assets.xcassets in Resources */,
 				B75F779C1E987EF100E131EA /* Main.storyboard in Resources */,

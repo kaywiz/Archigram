@@ -1,6 +1,0 @@
-framework module Pods_ArchigramUITests {
-  umbrella header "Pods-ArchigramUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
