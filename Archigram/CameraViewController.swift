@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Clarifai
 
 class CameraViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
