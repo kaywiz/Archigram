@@ -11,10 +11,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Camera View Controller-->
+        <!--Recognition View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="CameraViewController" customModule="Archigram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="RecognitionViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -38,7 +38,7 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="camerabuttonaction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3WG-vj-tXR"/>
+                                            <action selector="cameraButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ELg-oc-Dgx"/>
                                         </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qPf-EZ-CB0">
@@ -56,7 +56,7 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="photolibraryaction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="seg-3D-r3V"/>
+                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pTj-sb-jB3"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lg6-dG-adf">
@@ -70,9 +70,17 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="findStyleTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eib-vz-vxE"/>
+                                            <segue destination="zZz-CP-At3" kind="show" id="a46-VO-6rA"/>
                                         </connections>
                                     </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Pau-Wu-f5C">
+                                        <rect key="frame" x="87" y="277" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -129,19 +137,16 @@
                                     <constraint firstAttribute="height" constant="33" id="Zmk-zx-q4m"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="folderTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sUk-rM-Vwv"/>
+                                    <segue destination="hmW-SC-cYt" kind="show" id="pmT-3f-g2T"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V6r-bK-Lhk">
                                 <rect key="frame" x="177" y="28" width="60" height="60"/>
-                                <connections>
-                                    <action selector="houseTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4yp-wE-Yri"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSn-d6-gzY">
                                 <rect key="frame" x="349" y="40" width="37" height="37"/>
                                 <connections>
-                                    <action selector="questionTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JAo-X7-hpm"/>
+                                    <segue destination="Hb9-mQ-xvb" kind="show" id="Bvo-e8-ciZ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -176,7 +181,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="imageDisplay" destination="qPf-EZ-CB0" id="N87-Te-7Ll"/>
+                        <outlet property="button" destination="wTq-jH-eo4" id="p7w-1L-hNv"/>
+                        <outlet property="cameraButton" destination="tQf-Y6-q5u" id="J4f-9A-tf3"/>
+                        <outlet property="imageView" destination="qPf-EZ-CB0" id="mFh-8b-XRC"/>
+                        <outlet property="textView" destination="Pau-Wu-f5C" id="nFZ-7c-YGH"/>
                         <segue destination="zZz-CP-At3" kind="show" identifier="chosePicture" animates="NO" id="odS-TM-fjh"/>
                         <segue destination="hmW-SC-cYt" kind="show" identifier="cameraToSaved" animates="NO" id="F9d-UN-Nnt"/>
                         <segue destination="Hb9-mQ-xvb" kind="show" identifier="cameraToHelp" animates="NO" id="ZCJ-RS-4kr"/>
@@ -743,9 +751,9 @@
         <image name="saveButton" width="31" height="37"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="IrF-Sp-FHS"/>
+        <segue reference="lSM-Yb-LKp"/>
+        <segue reference="F9d-UN-Nnt"/>
         <segue reference="odS-TM-fjh"/>
-        <segue reference="i5H-f2-qNd"/>
-        <segue reference="SQS-77-tns"/>
+        <segue reference="ZCJ-RS-4kr"/>
     </inferredMetricsTieBreakers>
 </document>
