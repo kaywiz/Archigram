@@ -14,11 +14,20 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UITextView *textView;
 @property (weak, nonatomic) IBOutlet UIButton *button;
+@property (weak, nonatomic) IBOutlet UIButton *cameraButton;
 @property (strong, nonatomic) ClarifaiApp *app;
 @end
 
 
 @implementation RecognitionViewController
+
+- (IBAction)cameraButtonPressed:(id)sender {
+    UIImagePickerController *picker = [[UIImagePickerController alloc] init];
+    picker.sourceType = UIImagePickerControllerSourceTypeCamera;
+    picker.allowsEditing = NO;
+    picker.delegate = self;
+    [self presentViewController:picker animated:YES completion:nil];
+}
 
 - (IBAction)buttonPressed:(id)sender {
     // Show a UIImagePickerController to let the user pick an image from their library.
@@ -77,6 +86,35 @@
 
         }];
     }];
+    
+    
+    /*
+    //- (IBAction)cameraButtonPressed:(id)sender
+    - (IBAction)folderTap:(id)sender {
+        [self performSegueWithIdentifier: @"MySegue" sender: self];
+    }
+        //self.performSegue(withIdentifier: "styleToSaved", sender: self)
+    }
+    
+    @IBAction func houseTap(_ sender: Any) {
+        //self.performSegue(withIdentifier: "styleToSaved", sender: self)
+    }
+    
+    @IBAction func questionTap(_ sender: Any) {
+        self.performSegue(withIdentifier: "styleToHelp", sender: self)
+    }
+    
+    @IBAction func quitButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "goBack", sender: self)
+    }
+    
+    @IBAction func saveButton(_ sender: Any) {
+        if let photoSave = imageDisplay.image {
+            UIImageWriteToSavedPhotosAlbum(photoSave, nil, nil, nil)
+        }
+    }
+     */
+
 }
 
 @end
