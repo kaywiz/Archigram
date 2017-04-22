@@ -8,10 +8,15 @@
 
 import UIKit
 
-class StyleViewController: UIViewController {
+@objc class StyleViewController: UIViewController {
     
     @IBOutlet weak var imageDisplay: UIImageView!
     var imageToAnalyze: UIImage!
+    var tagText: String!
+    var arrayOfTags: NSMutableArray!
+
+    @IBOutlet weak var tagDisplay: UILabel!
+    
 
     //@IBOutlet weak var analyzedPhoto: UIImageView!
     
@@ -21,6 +26,7 @@ class StyleViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         imageDisplay.image = imageToAnalyze
+        tagDisplay.text = tagText
     }
     
     @IBAction func folderTap(_ sender: Any) {

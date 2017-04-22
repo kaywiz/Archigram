@@ -78,12 +78,14 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         // Dispose of any resources that can be recreated.
     }
     
+    /*
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "chosePicture" ,
             let nextScene = segue.destination as? StyleViewController {
                 nextScene.imageToAnalyze = imageToAnalyze
         }
     }
+ */
 
 
 }

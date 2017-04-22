@@ -647,6 +647,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = k.Archigram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Archigram/Archigram-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "Archigram-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -666,6 +667,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = k.Archigram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Archigram/Archigram-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "Archigram-Swift.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
