@@ -5,6 +5,7 @@
 
 #import "RecognitionViewController.h"
 #import "ClarifaiApp.h"
+#import "Archigram-Swift.h"
 
 /**
  * This view controller performs recognition using the Clarifai API.
@@ -16,10 +17,13 @@
 @property (weak, nonatomic) IBOutlet UIButton *button;
 @property (weak, nonatomic) IBOutlet UIButton *cameraButton;
 @property (strong, nonatomic) ClarifaiApp *app;
+@property UIImage *image;
+@property NSMutableArray *tags;
 @end
 
 
 @implementation RecognitionViewController
+
 
 - (IBAction)cameraButtonPressed:(id)sender {
     UIImagePickerController *picker = [[UIImagePickerController alloc] init];
@@ -44,13 +48,13 @@
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
     [self dismissViewControllerAnimated:YES completion:nil];
-    UIImage *image = info[UIImagePickerControllerOriginalImage];
-    if (image) {
+    self.image = info[UIImagePickerControllerOriginalImage];
+    if (self.image) {
         // The user picked an image. Send it to Clarifai for recognition.
-        self.imageView.image = image;
+        self.imageView.image = self.image;
         self.textView.text = @"Recognizing...";
         self.button.enabled = NO;
-        [self recognizeImage:image];
+        [self recognizeImage:self.image];
     }
 }
 
@@ -71,12 +75,12 @@
                 ClarifaiOutput *output = outputs[0];
                 
                 // Loop through predicted concepts (tags), and display them on the screen.
-                NSMutableArray *tags = [NSMutableArray array];
+                self.tags = [NSMutableArray array];
                 for (ClarifaiConcept *concept in output.concepts) {
-                    [tags addObject:concept.conceptName];
+                    [self.tags addObject:concept.conceptName];
                 }
                 dispatch_async(dispatch_get_main_queue(), ^{
-                    self.textView.text = [NSString stringWithFormat:@"Tags:\n%@", [tags componentsJoinedByString:@", "]];
+                    self.textView.text = [NSString stringWithFormat:@"Tags:\n%@", [self.tags componentsJoinedByString:@", "]];
                 });
             }
           
@@ -86,35 +90,40 @@
 
         }];
     }];
-    
-    
-    /*
-    //- (IBAction)cameraButtonPressed:(id)sender
-    - (IBAction)folderTap:(id)sender {
-        [self performSegueWithIdentifier: @"MySegue" sender: self];
-    }
-        //self.performSegue(withIdentifier: "styleToSaved", sender: self)
-    }
-    
-    @IBAction func houseTap(_ sender: Any) {
-        //self.performSegue(withIdentifier: "styleToSaved", sender: self)
-    }
-    
-    @IBAction func questionTap(_ sender: Any) {
-        self.performSegue(withIdentifier: "styleToHelp", sender: self)
-    }
-    
-    @IBAction func quitButton(_ sender: Any) {
-        self.performSegue(withIdentifier: "goBack", sender: self)
-    }
-    
-    @IBAction func saveButton(_ sender: Any) {
-        if let photoSave = imageDisplay.image {
-            UIImageWriteToSavedPhotosAlbum(photoSave, nil, nil, nil)
-        }
-    }
-     */
 
+}
+
+- (IBAction)folderTap:(id)sender {
+    [self performSegueWithIdentifier: @"cameraToSaved" sender: self];
+}
+
+- (IBAction)houseTap:(id)sender {
+    //[self performSegueWithIdentifier: @"styleToSaved" sender: self];
+}
+
+- (IBAction)questionTap:(id)sender {
+    [self performSegueWithIdentifier: @"cameraToHelp" sender: self];
+}
+
+- (IBAction)findStyle:(id)sender {
+    [self performSegueWithIdentifier: @"chosePicture" sender: self];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    printf("prep for segue");
+    //printf([segue indentifier]);
+    if ([[segue identifier] isEqualToString:@"chosePicture"]) {
+        printf("prep for segue2");
+        // Get reference to the destination view controller
+        StyleViewController *vc = [segue destinationViewController];
+        
+        // Pass any objects to the view controller here, like...
+        
+        vc.tagText = @"description goes here";
+        vc.arrayOfTags = self.tags;
+        vc.imageToAnalyze = self.image;
+    }
 }
 
 @end
