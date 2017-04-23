@@ -16,9 +16,11 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     
     var imageToAnalyze: UIImage!
     
+    /*
     var app = ClarifaiApp(
         appID: "S-kCOgG9TOuyJTa8V5r2-CSu_vXLhJZtLrLuUZDk", appSecret: "Q9B-oWmr0yqabyGEBPUnl3eZntS4ZjxoSZxKB9Se"
     )
+ */
     
     
     override func viewDidLoad() {

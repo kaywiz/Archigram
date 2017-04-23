@@ -27,6 +27,10 @@ import UIKit
         
         imageDisplay.image = imageToAnalyze
         tagDisplay.text = tagText
+        
+        for i in arrayOfTags{
+            print(i)
+        }
     }
     
     @IBAction func folderTap(_ sender: Any) {
