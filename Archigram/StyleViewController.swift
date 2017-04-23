@@ -11,11 +11,28 @@ import UIKit
 @objc class StyleViewController: UIViewController {
     
     @IBOutlet weak var imageDisplay: UIImageView!
+    @IBOutlet weak var tagDisplay: UILabel!
+    @IBOutlet weak var nameDisplay: UILabel!
+    @IBOutlet weak var timePeriodDisplay: UILabel!
+    
     var imageToAnalyze: UIImage!
     var tagText: String!
     var arrayOfTags: NSMutableArray!
+    
 
-    @IBOutlet weak var tagDisplay: UILabel!
+    
+    
+    var inputArray = ["architecture", "house", "building", "home", "facade", "brick", "old", "outdoors", "mansion", "lawn", "window", "exterior", "family", "city", "town", "sky", "street", "front", "urban"]
+    var beauxArtsArray = ["administration", "museum", "ancient", "parliament", "sculpture", "statue", "facade"]
+    var federalArray = ["traditional", "brick", "historic", "church", "religion", "old", "window", "town"]
+    var gothicArray = ["church", "cathedral", "religion", "Gothic", "travel", "goth like", "tourism", "tourist", "monument", "ancient", "religious"]
+    var renaissanceRevivalArray = ["castle", "old", "travel", "imperial", "tower", "chateau", "tourism", "ancient", "park", "landmark", "historic"]
+    var prairieSchoolArray = ["wood", "house", "family", "home", "horizontal plane", "roof", "wooden", "lawn", "window", "grass"]
+    var modernismArray = ["modern", "contemporary", "window", "lawn", "luxury", "grass", "business", "summer", "glass items"]
+    var brutalismArray = ["modern", "business", "window", "headquarters", "office", "contemporary", "futuristic", "apartment", "glass items"]
+    var blobitectureArray = ["glass items", "futuristic", "expression", "sculpture", "art", "technology", "water", "reflection"]
+    
+    var resultArray = [String]()
     
 
     //@IBOutlet weak var analyzedPhoto: UIImageView!
@@ -28,10 +45,141 @@ import UIKit
         imageDisplay.image = imageToAnalyze
         tagDisplay.text = tagText
         
-        for i in arrayOfTags{
-            print(i)
+        compareBeauxArts()
+        compareFederal()
+        compareGothic()
+        compareRenaissanceRevival()
+        comparePrairieSchool()
+        compareModernism()
+        compareBrutalism()
+        compareBlobitecture()
+        for element in resultArray {
+            if resultArray.count >= 0 && resultArray.count < 1 {
+                tagDisplay.text = "We are unable to detact the architectural style."
+            }
+            if resultArray[0] == "Beaux-Arts" {
+                nameDisplay.text = "Beaux-Arts"
+                timePeriodDisplay.text = "1780 and 1830"
+                tagDisplay.text = "Beaux-Arts architecture (/ˌboʊˈzɑːr/; French: [bozaʁ]) expresses the academic neoclassical architectural style taught at the École des Beaux-Arts in Paris. Beaux-Arts architecture depended on sculptural decoration along conservative modern lines, employing French and Italian Baroque and Rococo formulas combined with an impressionistic finish and realism."
+            }
+            if resultArray[0] == "Federal" {
+                nameDisplay.text = "Federal"
+                timePeriodDisplay.text = "1890 to 1920"
+                tagDisplay.text = "Federal-style architecture is the name for the classicizing architecture built in the newly founded United States between c. 1780 and 1830, and particularly from 1785 to 1815. American Federal architecture typically uses plain surfaces with attenuated detail, usually isolated in panels, tablets, and friezes. It also had a flatter, smoother façade and rarely used pilasters."
+            }
+            if resultArray[0] == "Gothic" {
+                nameDisplay.text = "Gothic"
+                timePeriodDisplay.text = "1100s to 1500s"
+                tagDisplay.text = "Gothic architecture is a style of architecture that flourished in Europe during the high and late medieval period. It evolved from Romanesque architecture and was succeeded by Renaissance architecture. Its characteristics include the pointed arch, the ribbed vault (which evolved from the joint vaulting of romanesque architecture) and the flying buttress."
+            }
+            if resultArray[0] == "Renaissance Revival" {
+                nameDisplay.text = "Renaissance Revival"
+                timePeriodDisplay.text = "1840 to 1920"
+                tagDisplay.text = "Renaissance Revival is an all-encompassing designation that covers many 19th century architectural revival styles. Buildings with the first Renaissance Revival Style show a definite studied formalism. The tightly contained cube is a symmetrical composition of early sixteenth century Italian elements. Scale and size distinguish the later Revival from the earlier Renaissance Revival."
+            }
+            if resultArray[0] == "Prairie School" {
+                nameDisplay.text = "Prairie School"
+                timePeriodDisplay.text = "Late 19th- and early 20th-century"
+                tagDisplay.text = "Prairie School was the most common to the Midwestern United States. The style is usually marked by horizontal lines, flat or hipped roofs with broad overhanging eaves, windows grouped in horizontal bands, integration with the landscape, solid construction, craftsmanship, and discipline in the use of ornament."
+            }
+            if resultArray[0] == "Modernism" {
+                nameDisplay.text = "Modernism"
+                timePeriodDisplay.text = "Mid 20th-century to present"
+                tagDisplay.text = "Modern architecture emerged in the first half of the 20th century and became dominant after World War II. It was based upon new technologies of construction, particularly the use of glass, steel and reinforced concrete; and upon a rejection of the traditional neoclassical architecture and Beaux-Arts styles that were popular in the 19th century"
+            }
+            if resultArray[0] == "Brutalism" {
+                nameDisplay.text = "Brutalism"
+                timePeriodDisplay.text = "1950s to mid-1970s"
+                tagDisplay.text = "Brutalist architecture is a movement in architecture that flourished from the 1950s to the mid-1970s, descending from the modernist architectural movement of the early 20th century. Examples of Brutalist buildings are typically massive in character, fortress-like, with a predominance of exposed concrete construction, or ruggedly combine detailed brickwork and concrete."
+            }
+            if resultArray[0] == "Blobitecture" {
+                nameDisplay.text = "Blobitecture"
+                timePeriodDisplay.text = "Mid 1990s to present"
+                tagDisplay.text = "Blobitecture is a movement in architecture in which buildings have an organic, amoeba-shaped, building form. The word is often used to describe buildings with curved and rounded shapes."
+            }
+
+                
+            else {
+                print("The architectural style is ", element + ".\n", terminator: " ")
+            }
+        }
+
+    }
+    
+    func compareBeauxArts () {
+        if inputArray.contains("architecture") && inputArray.contains("building") {
+            let output = inputArray.filter(beauxArtsArray.contains)
+            if output.count >= 5 {
+                resultArray.append("Beaux-Arts")
+            }
         }
     }
+    
+    func compareFederal () {
+        if inputArray.contains("architecture") && inputArray.contains("building") {
+            let output = inputArray.filter(federalArray.contains)
+            if output.count >= 5 {
+                resultArray.append("Federal")
+            }
+        }
+    }
+    
+    func compareGothic () {
+        if inputArray.contains("architecture") && inputArray.contains("building") {
+            let output = inputArray.filter(gothicArray.contains)
+            if output.count >= 5 {
+                resultArray.append("Gothic")
+            }
+        }
+    }
+    
+    func compareRenaissanceRevival () {
+        if inputArray.contains("architecture") && inputArray.contains("building") {
+            let output = inputArray.filter(renaissanceRevivalArray.contains)
+            if output.count >= 5 {
+                resultArray.append("Renaissance Revival")
+            }
+        }
+    }
+    
+    func comparePrairieSchool () {
+        if inputArray.contains("architecture") && inputArray.contains("building") {
+            let output = inputArray.filter(prairieSchoolArray.contains)
+            if output.count >= 5 {
+                resultArray.append("Prairie School")
+            }
+        }
+    }
+    
+    func compareModernism () {
+        if inputArray.contains("architecture") && inputArray.contains("building") {
+            let output = inputArray.filter(modernismArray.contains)
+            if output.count >= 5 {
+                resultArray.append("Modernism")
+            }
+        }
+    }
+    
+    func compareBrutalism () {
+        if inputArray.contains("architecture") && inputArray.contains("building") {
+            let output = inputArray.filter(brutalismArray.contains)
+            if output.count >= 5 {
+                resultArray.append("Brutalism")
+            }
+        }
+    }
+    
+    
+    func compareBlobitecture () {
+        if inputArray.contains("architecture") && inputArray.contains("building") {
+            let output = inputArray.filter(blobitectureArray.contains)
+            if output.count >= 5 {
+                resultArray.append("Blobitecture")
+            }
+        }
+    }
+
+    
     
     @IBAction func folderTap(_ sender: Any) {
         self.performSegue(withIdentifier: "styleToSaved", sender: self)
