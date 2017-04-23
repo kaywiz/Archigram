@@ -27,6 +27,22 @@ import UIKit
     @IBOutlet var wikiLabel: UIButton!
     var url = "https://en.wikipedia.org/wiki/"
     
+    
+    var beauxCount = 0
+    var imptBeauxCount = 0
+    
+    var federalCount = 0
+    var imptFederalCount = 0
+    
+    var gothicCount = 0
+    var imptGothicCount = 0
+    
+    var renCount = 0
+    var imptRenCount = 0
+    
+    var prarCount = 0
+    var imptPrarCount = 0
+    
     var inputArray = ["architecture", "house", "building", "home", "facade", "brick", "old", "outdoors", "mansion", "lawn", "window", "exterior", "family", "city", "town", "sky", "street", "front", "urban"]
     
     var beauxArtsArray = ["administration", "museum", "ancient", "parliament", "sculpture", "statue", "facade", "landmark", "monument", "castle", "travel", "old"]
@@ -143,26 +159,29 @@ import UIKit
                 print("The architectural style is ", element + ".\n", terminator: " ")
             }
         }
-        switch resultArray[0] {
-        case "Beaux-Arts":
-            url += "Beaux_Arts_architecture"
-        case "Federal":
-            url += "Federal_architecture"
-        case "Gothic":
-            url += "Gothic_architecture"
-        case "Renaissance Revival":
-            url += "Renaissance_Revival_architecture"
-        case "Prairie School":
-            url += "Prarie_School"
-        case "Modernism":
-            url += "Modern_architecture"
-        case "Brutalism":
-            url += "Brutalism"
-        case "Blobitecture":
-            url += "Blobitecture"
-        default:
-            url += ""
+        if (resultArray.count > 0){
+            switch resultArray[0] {
+            case "Beaux-Arts":
+                url += "Beaux_Arts_architecture"
+            case "Federal":
+                url += "Federal_architecture"
+            case "Gothic":
+                url += "Gothic_architecture"
+            case "Renaissance Revival":
+                url += "Renaissance_Revival_architecture"
+            case "Prairie School":
+                url += "Prarie_School"
+            case "Modernism":
+                url += "Modern_architecture"
+            case "Brutalism":
+                url += "Brutalism"
+            case "Blobitecture":
+                url += "Blobitecture"
+            default:
+                url += ""
+            }
         }
+        
         
     }
     
