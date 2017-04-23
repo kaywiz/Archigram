@@ -19,6 +19,7 @@
 		B75F77B71E987EF100E131EA /* ArchigramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75F77B61E987EF100E131EA /* ArchigramUITests.swift */; };
 		B75F77C61E988BD700E131EA /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75F77C51E988BD700E131EA /* CameraView.swift */; };
 		B75F77CB1E98995800E131EA /* Anders.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B75F77CA1E98995800E131EA /* Anders.ttf */; };
+		B7EC72A01EAD4DE700946E62 /* SlideLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EC729F1EAD4DE700946E62 /* SlideLeft.swift */; };
 		B7F74A871E9C50D1008AB9B3 /* StyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F74A861E9C50D1008AB9B3 /* StyleViewController.swift */; };
 		B7F74A891E9C510F008AB9B3 /* WikiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F74A881E9C510F008AB9B3 /* WikiViewController.swift */; };
 		B7F74A8B1E9C5122008AB9B3 /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F74A8A1E9C5122008AB9B3 /* SavedViewController.swift */; };
@@ -68,6 +69,7 @@
 		B75F77B81E987EF100E131EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B75F77C51E988BD700E131EA /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		B75F77CA1E98995800E131EA /* Anders.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Anders.ttf; sourceTree = "<group>"; };
+		B7EC729F1EAD4DE700946E62 /* SlideLeft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideLeft.swift; sourceTree = "<group>"; };
 		B7F74A861E9C50D1008AB9B3 /* StyleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleViewController.swift; sourceTree = "<group>"; };
 		B7F74A881E9C510F008AB9B3 /* WikiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiViewController.swift; sourceTree = "<group>"; };
 		B7F74A8A1E9C5122008AB9B3 /* SavedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				B7F74A861E9C50D1008AB9B3 /* StyleViewController.swift */,
+				B7EC729F1EAD4DE700946E62 /* SlideLeft.swift */,
 				B75F77961E987EF100E131EA /* AppDelegate.swift */,
 				B75F77981E987EF100E131EA /* CameraViewController.swift */,
 				B75F77C51E988BD700E131EA /* CameraView.swift */,
@@ -477,6 +480,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7F74A8D1E9C5133008AB9B3 /* HelpViewController.swift in Sources */,
+				B7EC72A01EAD4DE700946E62 /* SlideLeft.swift in Sources */,
 				B7F74A8B1E9C5122008AB9B3 /* SavedViewController.swift in Sources */,
 				B7F74A871E9C50D1008AB9B3 /* StyleViewController.swift in Sources */,
 				B75F77C61E988BD700E131EA /* CameraView.swift in Sources */,
@@ -638,6 +642,7 @@
 			baseConfigurationReference = 1C72E953AF83991672CFF195 /* Pods-Archigram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 3RC6X3VS33;
@@ -658,6 +663,7 @@
 			baseConfigurationReference = 2B23650CAAE5BDE80BBC438D /* Pods-Archigram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 3RC6X3VS33;

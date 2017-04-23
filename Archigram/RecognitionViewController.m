@@ -92,6 +92,12 @@
     }];
 
 }
+- (IBAction)folder:(id)sender {
+    [self performSegueWithIdentifier: @"cameraToSaved" sender: self];
+}
+- (IBAction)question:(id)sender {
+    [self performSegueWithIdentifier: @"cameraToHelp" sender: self];
+}
 
 - (IBAction)folderTap:(id)sender {
     [self performSegueWithIdentifier: @"cameraToSaved" sender: self];
