@@ -107,75 +107,181 @@ import UIKit
     }
     
     func compareBeauxArts () {
-        if inputArray.contains("architecture") && inputArray.contains("building") {
-            let output = inputArray.filter(beauxArtsArray.contains)
-            if output.count >= 5 {
-                resultArray.append("Beaux-Arts")
+//        if inputArray.contains("architecture") && inputArray.contains("building") {
+//            let output = inputArray.filter(beauxArtsArray.contains)
+//            if output.count >= 5 {
+//                resultArray.append("Beaux-Arts")
+//            }
+//        }
+//        
+        var count = 0
+        
+        for i in arrayOfTags{
+            let resultString = String(describing: i)
+            for x in beauxArtsArray{
+                if x == resultString {
+                    count += 1
+                }
             }
+        }
+        if count >= 5 {
+            resultArray.append("Beaux-Arts")
         }
     }
     
     func compareFederal () {
-        if inputArray.contains("architecture") && inputArray.contains("building") {
-            let output = inputArray.filter(federalArray.contains)
-            if output.count >= 5 {
-                resultArray.append("Federal")
+//        if inputArray.contains("architecture") && inputArray.contains("building") {
+//            let output = inputArray.filter(federalArray.contains)
+//            if output.count >= 5 {
+//                resultArray.append("Federal")
+//            }
+//        }
+        var count = 0
+        
+        for i in arrayOfTags{
+            let resultString = String(describing: i)
+            for x in federalArray{
+                if x == resultString {
+                    count += 1
+                }
             }
         }
+        if count >= 5 {
+            resultArray.append("Federal")
+        }
+        
     }
     
     func compareGothic () {
-        if inputArray.contains("architecture") && inputArray.contains("building") {
-            let output = inputArray.filter(gothicArray.contains)
-            if output.count >= 5 {
-                resultArray.append("Gothic")
+//        if inputArray.contains("architecture") && inputArray.contains("building") {
+//            let output = inputArray.filter(gothicArray.contains)
+//            if output.count >= 5 {
+//                resultArray.append("Gothic")
+//            }
+//        }
+        var count = 0
+        
+        for i in arrayOfTags{
+            let resultString = String(describing: i)
+            for x in gothicArray{
+                if x == resultString {
+                    count += 1
+                }
             }
+        }
+        if count >= 5 {
+            resultArray.append("Gothic")
         }
     }
     
     func compareRenaissanceRevival () {
-        if inputArray.contains("architecture") && inputArray.contains("building") {
-            let output = inputArray.filter(renaissanceRevivalArray.contains)
-            if output.count >= 5 {
-                resultArray.append("Renaissance Revival")
+//        if inputArray.contains("architecture") && inputArray.contains("building") {
+//            let output = inputArray.filter(renaissanceRevivalArray.contains)
+//            if output.count >= 5 {
+//                resultArray.append("Renaissance Revival")
+//            }
+//        }
+        var count = 0
+        
+        for i in arrayOfTags{
+            let resultString = String(describing: i)
+            for x in renaissanceRevivalArray{
+                if x == resultString {
+                    count += 1
+                }
             }
+        }
+        if count >= 5 {
+            resultArray.append("Renaissance Revival")
         }
     }
     
     func comparePrairieSchool () {
-        if inputArray.contains("architecture") && inputArray.contains("building") {
-            let output = inputArray.filter(prairieSchoolArray.contains)
-            if output.count >= 5 {
-                resultArray.append("Prairie School")
+//        if inputArray.contains("architecture") && inputArray.contains("building") {
+//            let output = inputArray.filter(prairieSchoolArray.contains)
+//            if output.count >= 5 {
+//                resultArray.append("Prairie School")
+//            }
+//        }
+        var count = 0
+        
+        for i in arrayOfTags{
+            let resultString = String(describing: i)
+            for x in prairieSchoolArray{
+                if x == resultString {
+                    count += 1
+                }
             }
+        }
+        if count >= 5 {
+            resultArray.append("Prarie School")
         }
     }
     
     func compareModernism () {
-        if inputArray.contains("architecture") && inputArray.contains("building") {
-            let output = inputArray.filter(modernismArray.contains)
-            if output.count >= 5 {
-                resultArray.append("Modernism")
+//        if inputArray.contains("architecture") && inputArray.contains("building") {
+//            let output = inputArray.filter(modernismArray.contains)
+//            if output.count >= 5 {
+//                resultArray.append("Modernism")
+//            }
+//        }
+        var count = 0
+        
+        for i in arrayOfTags{
+            let resultString = String(describing: i)
+            for x in modernismArray{
+                if x == resultString {
+                    count += 1
+                }
             }
+        }
+        if count >= 5 {
+            resultArray.append("Modernism")
         }
     }
     
     func compareBrutalism () {
-        if inputArray.contains("architecture") && inputArray.contains("building") {
-            let output = inputArray.filter(brutalismArray.contains)
-            if output.count >= 5 {
-                resultArray.append("Brutalism")
+//        if inputArray.contains("architecture") && inputArray.contains("building") {
+//            let output = inputArray.filter(brutalismArray.contains)
+//            if output.count >= 5 {
+//                resultArray.append("Brutalism")
+//            }
+//        }
+        var count = 0
+        
+        for i in arrayOfTags{
+            let resultString = String(describing: i)
+            for x in brutalismArray{
+                if x == resultString {
+                    count += 1
+                }
             }
+        }
+        if count >= 5 {
+            resultArray.append("Brutalism")
         }
     }
     
     
     func compareBlobitecture () {
-        if inputArray.contains("architecture") && inputArray.contains("building") {
-            let output = inputArray.filter(blobitectureArray.contains)
-            if output.count >= 5 {
-                resultArray.append("Blobitecture")
+//        if inputArray.contains("architecture") && inputArray.contains("building") {
+//            let output = inputArray.filter(blobitectureArray.contains)
+//            if output.count >= 5 {
+//                resultArray.append("Blobitecture")
+//            }
+//        }
+        var count = 0
+        
+        for i in arrayOfTags{
+            let resultString = String(describing: i)
+            for x in blobitectureArray{
+                if x == resultString {
+                    count += 1
+                }
             }
+        }
+        if count >= 5 {
+            resultArray.append("Blobitecture")
         }
     }
 
