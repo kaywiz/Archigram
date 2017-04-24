@@ -29,19 +29,21 @@ import UIKit
     
     
     var beauxCount = 0
-    var imptBeauxCount = 0
     
-    var federalCount = 0
-    var imptFederalCount = 0
+    var fedCount = 0
     
-    var gothicCount = 0
-    var imptGothicCount = 0
+    var gothCount = 0
     
     var renCount = 0
-    var imptRenCount = 0
     
     var prarCount = 0
-    var imptPrarCount = 0
+    
+    var modCount = 0
+    
+    var brutCount = 0
+    
+    var blobCount = 0
+    
     
     var inputArray = ["architecture", "house", "building", "home", "facade", "brick", "old", "outdoors", "mansion", "lawn", "window", "exterior", "family", "city", "town", "sky", "street", "front", "urban"]
     
@@ -63,11 +65,11 @@ import UIKit
     var modernismArray = ["modern", "contemporary", "window", "lawn", "luxury", "grass", "business", "summer", "glass items", "steel", "museum"]
     var imptModernismArray = ["modern", "contemporary", "window", "museum"]
     
-    var brutalismArray = ["modern", "business", "window", "headquarters", "office", "contemporary", "futuristic", "apartment", "glass items", "urban"]
-    var imptBrutalismArray = ["modern", "business", "window", "office"]
+    var brutalismArray = ["modern", "business", "window", "headquarters", "office", "apartment", "glass items", "urban"]
+    var imptBrutalismArray = ["modern", "business", "window"]
     
     var blobitectureArray = ["glass items", "futuristic", "expression", "sculpture", "art", "technology", "water", "reflection", "city", "urban", "modern"]
-    var imptBlobitectureArray = ["glass items", "expression", "city", "urban", "museum", "tourism"]
+    var imptBlobitectureArray = ["expression", "city", "urban", "museum", "tourism"]
     
     var resultArray = [String]()
     
@@ -98,6 +100,8 @@ import UIKit
         compareModernism()
         compareBrutalism()
         compareBlobitecture()
+        determineStyle()
+        
         for element in resultArray {
             print("Entered")
             if resultArray.count == 0 {
@@ -186,186 +190,189 @@ import UIKit
     }
     
     func compareBeauxArts () {
-        var imptCount = 0
-        var count = 0
-        
         for i in arrayOfTags{
             let resultString = String(describing: i)
             for x in imptBeauxArtsArray {
                 if x == resultString {
-                    imptCount += 1
+                    beauxCount += 2
                 }
             }
             for x in beauxArtsArray{
                 if x == resultString {
-                    count += 1
+                    beauxCount += 1
                 }
             }
         }
-        if imptCount >= 2 && count >= 4 {
-            resultArray.append("Beaux-Arts")
-        }
+        print("Beaux: ")
+        print(beauxCount)
     }
     
     func compareFederal () {
-        var imptCount = 0
-        var count = 0
-        
         for i in arrayOfTags{
             let resultString = String(describing: i)
             for x in imptFederalArray {
                 if x == resultString {
-                    imptCount += 1
+                    fedCount += 2
                 }
             }
             for x in federalArray{
                 if x == resultString {
-                    count += 1
+                    fedCount += 1
                 }
             }
         }
-        if imptCount >= 2 && count >= 4 {
-            resultArray.append("Federal")
-        }
-        
+        print("Federal: ")
+        print(fedCount)
     }
     
     func compareGothic () {
-        var imptCount = 0
-        var count = 0
-        
         for i in arrayOfTags{
             let resultString = String(describing: i)
             for x in imptGothicArray {
                 if x == resultString {
-                    imptCount += 1
+                    gothCount += 2
                 }
             }
             for x in gothicArray{
                 if x == resultString {
-                    count += 1
+                    gothCount += 1
                 }
             }
         }
-        if imptCount >= 2 && count >= 4 {
-            resultArray.append("Gothic")
-        }
+        print("Gothic ")
+        print(gothCount)
     }
     
     func compareRenaissanceRevival () {
-        var imptCount = 0
-        var count = 0
-        
         for i in arrayOfTags{
             let resultString = String(describing: i)
             for x in imptRenaissanceRevealArray {
                 if x == resultString {
-                    imptCount += 1
+                    renCount += 2
                 }
             }
             for x in renaissanceRevivalArray{
                 if x == resultString {
-                    count += 1
+                    renCount += 1
                 }
             }
         }
-        if imptCount >= 2 && count >= 4 {
-            resultArray.append("Renaissance Revival")
-        }
+        print("Renaissance: ")
+        print(renCount)
     }
     
     func comparePrairieSchool () {
-        var imptCount = 0
-        var count = 0
-        
         for i in arrayOfTags{
             let resultString = String(describing: i)
             for x in imptPrairieSchoollArray {
                 if x == resultString {
-                    imptCount += 1
+                    prarCount += 2
                 }
             }
             for x in prairieSchoolArray{
                 if x == resultString {
-                    count += 1
+                    prarCount += 1
                 }
             }
         }
-        if imptCount >= 2 && count >= 4 {
-            resultArray.append("Prarie School")
-        }
+        print("prarie school: ")
+        print(prarCount)
     }
     
     func compareModernism () {
-        var imptCount = 0
-        var count = 0
-        
         for i in arrayOfTags{
             let resultString = String(describing: i)
             for x in imptModernismArray {
                 if x == resultString {
-                    imptCount += 1
+                    modCount += 2
                 }
             }
             for x in modernismArray{
                 if x == resultString {
-                    count += 1
+                    modCount += 1
                 }
             }
         }
-        if imptCount >= 2 && count >= 4 {
-            resultArray.append("Modernism")
-        }
+        print("modernism: ")
+        print(modCount)
     }
     
     func compareBrutalism () {
-        var imptCount = 0
-        var count = 0
-        
         for i in arrayOfTags{
             let resultString = String(describing: i)
             for x in imptBrutalismArray {
                 if x == resultString {
-                    imptCount += 1
+                    brutCount += 2
                 }
             }
             for x in brutalismArray{
                 if x == resultString {
-                    count += 1
+                    brutCount += 1
                 }
             }
         }
-        if imptCount >= 2 && count >= 4 {
-            resultArray.append("Brutalism")
-        }
+        print("brutalism: ")
+        print(brutCount)
     }
     
     
     func compareBlobitecture () {
-        var imptCount = 0
-        var count = 0
-        
         for i in arrayOfTags{
             let resultString = String(describing: i)
             for x in imptBlobitectureArray {
                 if x == resultString {
-                    imptCount += 1
+                    blobCount += 2
                 }
             }
             for x in blobitectureArray{
                 if x == resultString {
-                    count += 1
+                    blobCount += 1
                 }
             }
         }
-        if imptCount >= 2 && count >= 4 {
-            resultArray.append("Blobitecture")
-        }
+        print("blobitecture: ")
+        print(blobCount)
     }
     
-    
-    
-    
+    func determineStyle(){
+        var highest = ""
+        var highestInt = 0
+        
+        if beauxCount > highestInt{
+            highest = "Beaux-Arts"
+            highestInt = beauxCount
+        }
+        if fedCount > highestInt{
+            highest = "Federal"
+            highestInt = fedCount
+        }
+        if gothCount > highestInt{
+            highest = "Gothic"
+            highestInt = gothCount
+        }
+        if renCount > highestInt{
+            highest = "Renaissance Revival"
+            highestInt = renCount
+        }
+        if prarCount > highestInt{
+            highest = "Prarie School"
+            highestInt = prarCount
+        }
+        if modCount > highestInt{
+            highest = "Modernism"
+            highestInt = modCount
+        }
+        if brutCount > highestInt{
+            highest = "Brutalism"
+            highestInt = brutCount
+        }
+        if blobCount > highestInt{
+            highest = "Blobitecture"
+            highestInt = blobCount
+        }
+        
+        resultArray.append(highest)
+    }
     
     @IBAction func folderTap(_ sender: Any) {
         self.performSegue(withIdentifier: "styleToSaved", sender: self)
