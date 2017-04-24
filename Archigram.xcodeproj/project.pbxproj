@@ -24,6 +24,7 @@
 		B7F74A891E9C510F008AB9B3 /* WikiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F74A881E9C510F008AB9B3 /* WikiViewController.swift */; };
 		B7F74A8B1E9C5122008AB9B3 /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F74A8A1E9C5122008AB9B3 /* SavedViewController.swift */; };
 		B7F74A8D1E9C5133008AB9B3 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F74A8C1E9C5133008AB9B3 /* HelpViewController.swift */; };
+		D33C9DC61EAD847900B4A77C /* SavedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C9DC51EAD847800B4A77C /* SavedImageView.swift */; };
 		D34B0BA21EA9B45A00AA99CA /* RecognitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D34B0BA11EA9B45A00AA99CA /* RecognitionViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,7 @@
 		B7F74A881E9C510F008AB9B3 /* WikiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiViewController.swift; sourceTree = "<group>"; };
 		B7F74A8A1E9C5122008AB9B3 /* SavedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
 		B7F74A8C1E9C5133008AB9B3 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		D33C9DC51EAD847800B4A77C /* SavedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedImageView.swift; sourceTree = "<group>"; };
 		D34B0B9F1EA9B45900AA99CA /* Archigram-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Archigram-Bridging-Header.h"; sourceTree = "<group>"; };
 		D34B0BA01EA9B45A00AA99CA /* RecognitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecognitionViewController.h; sourceTree = "<group>"; };
 		D34B0BA11EA9B45A00AA99CA /* RecognitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecognitionViewController.m; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				B7F74A8A1E9C5122008AB9B3 /* SavedViewController.swift */,
 				B7F74A8C1E9C5133008AB9B3 /* HelpViewController.swift */,
 				D34B0B9F1EA9B45900AA99CA /* Archigram-Bridging-Header.h */,
+				D33C9DC51EAD847800B4A77C /* SavedImageView.swift */,
 			);
 			path = Archigram;
 			sourceTree = "<group>";
@@ -479,6 +482,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D33C9DC61EAD847900B4A77C /* SavedImageView.swift in Sources */,
 				B7F74A8D1E9C5133008AB9B3 /* HelpViewController.swift in Sources */,
 				B7EC72A01EAD4DE700946E62 /* SlideLeft.swift in Sources */,
 				B7F74A8B1E9C5122008AB9B3 /* SavedViewController.swift in Sources */,
