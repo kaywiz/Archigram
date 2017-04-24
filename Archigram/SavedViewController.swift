@@ -15,13 +15,13 @@ class SavedViewController: UIViewController, UICollectionViewDataSource, UIColle
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        theCollection.dataSource = self
-        theCollection.delegate = self
-        print("run image count")
-        imgCount = getImgCount()
-        print("image count is \(imgCount)")
-        print("run images to array")
-        imagesToArray()
+//        theCollection.dataSource = self
+//        theCollection.delegate = self
+//        print("run image count")
+//        imgCount = getImgCount()
+//        print("image count is \(imgCount)")
+//        print("run images to array")
+//        imagesToArray()
     }
     
     @IBOutlet var questionTap: UIButton!
@@ -45,28 +45,34 @@ class SavedViewController: UIViewController, UICollectionViewDataSource, UIColle
     }
     
     func imagesToArray() {
-        var tempCount = 0
-        print("before loop")
-        while tempCount < imgCount {
-            print("recover img \(tempCount)")
-            let imageToRecover = UserDefaults.standard.data(forKey: "\(tempCount)")
-            if let possibleImageRecovered = imageToRecover {
-                
-            let imageRecovered = UIImage(data: possibleImageRecovered)
-                arrayOfImg.append(imageRecovered!)
-        }
-            /*
-        let possibleOldImagePath = UserDefaults.standard.string(forKey: "\(tempCount)")
-        if let oldImagePath = possibleOldImagePath {
-            let oldFullPath = self.documentsPathForFileName(name: oldImagePath)
-            let oldImageData = NSData(contentsOfFile: oldFullPath)
-            // here is your saved image:
-            let oldImage = UIImage(data: oldImageData as! Data)
- */
-            
-        //}
-            tempCount += 1
-        }
+//        var tempCount = 0
+//        print("before loop")
+//        while tempCount < imgCount {
+//            let defaults = UserDefaults.standard
+//            if let imgData = defaults.object(forKey: "image") as? NSData
+//            {
+//                if let image = UIImage(data: imgData as Data)
+//                {
+//                    arrayOfImg.append(image)
+//                    defaults.removeObject(forKey: "image")
+//                }
+//            }
+//            
+//            /*
+//        let possibleOldImagePath = UserDefaults.standard.string(forKey: "\(tempCount)")
+//        if let oldImagePath = possibleOldImagePath {
+//            let oldFullPath = self.documentsPathForFileName(name: oldImagePath)
+//            let oldImageData = NSData(contentsOfFile: oldFullPath)
+//            // here is your saved image:
+//            let oldImage = UIImage(data: oldImageData as! Data)
+// */
+//            
+//        //}
+//            tempCount += 1
+//        }
+//        
+
+        
     }
     
     
@@ -74,7 +80,7 @@ class SavedViewController: UIViewController, UICollectionViewDataSource, UIColle
 
 
 
-func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let cell = theCollection.dequeueReusableCell(withReuseIdentifier: "myCell", for: indexPath) as! SavedImageView
         cell.imageView.image = arrayOfImg[indexPath.item]

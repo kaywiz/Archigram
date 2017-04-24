@@ -397,22 +397,12 @@ import UIKit
     //save to camera roll and user defaults
 
     @IBAction func saveImg(_ sender: Any) {
-        if let photoSave = imageDisplay.image {
-            
-            UIImageWriteToSavedPhotosAlbum(photoSave, nil, nil, nil)
-            print("image is saved to album")
-            let imageData = UIImageJPEGRepresentation(photoSave, 1)
-            /*
-            let relativePath = "image_\(NSDate.timeIntervalSinceReferenceDate).jpg"
-            let path = self.documentsPathForFileName(name: relativePath)
-            let imgURL = NSURL(string: path)
-            try? imageData?.write(to: imgURL as! URL)
- */
-            defaults.set(imageData, forKey: "\(imgCount)")
-            defaults.synchronize()
-        }
-        imgCount += 1
-        defaults.set(imgCount, forKey: "imgCount")
+        
+        //Get some image in image variable of type UIImage.
+//        let image = imageDisplay.image
+//        let defaults = UserDefaults.standard
+//        let imgData = UIImageJPEGRepresentation(image!, 1)
+//        defaults.set(imgData, forKey: "image")
     }
 
     
