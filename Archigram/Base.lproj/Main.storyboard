@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E154a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -249,7 +249,7 @@
                                             <constraint firstAttribute="width" constant="21" id="TYo-Tq-mT6"/>
                                         </constraints>
                                         <connections>
-                                            <action selector="saveButton:" destination="zZz-CP-At3" eventType="touchUpInside" id="bsl-Oq-bEr"/>
+                                            <action selector="saveImg:" destination="zZz-CP-At3" eventType="touchUpInside" id="Gmt-gl-2Ai"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unkown Style" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hei-IL-r9M">
@@ -282,11 +282,10 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="saveButton:" destination="zZz-CP-At3" eventType="touchUpInside" id="Uso-4J-Val"/>
                                             <action selector="wiki:" destination="zZz-CP-At3" eventType="touchUpInside" id="SQj-MA-kZJ"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Unable to detect style" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ceQ-no-LW5">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Unable to detect style" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="ceQ-no-LW5">
                                         <rect key="frame" x="29" y="342" width="355" height="206"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
@@ -565,31 +564,43 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5dw-iH-Xud">
                                 <rect key="frame" x="0.0" y="110" width="413" height="626"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="building" translatesAutoresizingMaskIntoConstraints="NO" id="4hc-s6-DFe">
-                                        <rect key="frame" x="137" y="251" width="139" height="124"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="124" id="l5W-9o-Hn5"/>
-                                            <constraint firstAttribute="width" constant="139" id="ral-Zm-fNH"/>
-                                        </constraints>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kV5-wH-rBr">
-                                        <rect key="frame" x="137" y="251" width="139" height="124"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="139" id="g38-Jg-DRM"/>
-                                            <constraint firstAttribute="height" constant="124" id="l8V-uk-xcL"/>
-                                        </constraints>
-                                        <connections>
-                                            <action selector="buildingButton:" destination="hmW-SC-cYt" eventType="touchUpInside" id="6bK-Cb-BLl"/>
-                                        </connections>
-                                    </button>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Z67-ro-j4I">
+                                        <rect key="frame" x="0.0" y="0.0" width="413" height="626"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="lf8-Ry-0Jw">
+                                            <size key="itemSize" width="131" height="131"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells>
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="myCell" id="UaE-Ha-nKm" customClass="SavedImageView" customModule="Archigram" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="131" height="131"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                                    <rect key="frame" x="0.0" y="0.0" width="131" height="131"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BYH-bK-TwT">
+                                                            <rect key="frame" x="0.0" y="0.0" width="131" height="131"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                </view>
+                                                <constraints>
+                                                    <constraint firstItem="BYH-bK-TwT" firstAttribute="top" secondItem="UaE-Ha-nKm" secondAttribute="top" id="Cb0-GC-hxX"/>
+                                                    <constraint firstAttribute="bottom" secondItem="BYH-bK-TwT" secondAttribute="bottom" id="RfQ-RG-anI"/>
+                                                    <constraint firstAttribute="trailing" secondItem="BYH-bK-TwT" secondAttribute="trailing" id="gwp-GE-9aN"/>
+                                                    <constraint firstItem="BYH-bK-TwT" firstAttribute="leading" secondItem="UaE-Ha-nKm" secondAttribute="leading" id="mLa-Yx-twv"/>
+                                                </constraints>
+                                                <connections>
+                                                    <outlet property="imageView" destination="BYH-bK-TwT" id="cgS-0C-ghi"/>
+                                                </connections>
+                                            </collectionViewCell>
+                                        </cells>
+                                    </collectionView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstItem="kV5-wH-rBr" firstAttribute="centerX" secondItem="5dw-iH-Xud" secondAttribute="centerX" id="HWC-Jq-7Sg"/>
-                                    <constraint firstItem="4hc-s6-DFe" firstAttribute="centerX" secondItem="5dw-iH-Xud" secondAttribute="centerX" id="KM8-uB-O9q"/>
-                                    <constraint firstItem="kV5-wH-rBr" firstAttribute="centerY" secondItem="5dw-iH-Xud" secondAttribute="centerY" id="LFN-0H-lEZ"/>
-                                    <constraint firstItem="4hc-s6-DFe" firstAttribute="centerY" secondItem="5dw-iH-Xud" secondAttribute="centerY" id="Mi8-UR-xKR"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.42352941179999998" green="0.82745098039999998" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -614,6 +625,7 @@
                     </view>
                     <connections>
                         <outlet property="questionTap" destination="XSc-1u-9mj" id="1pL-2c-B1o"/>
+                        <outlet property="theCollection" destination="Z67-ro-j4I" id="KYD-vb-ifo"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="savedToCamera" animates="NO" id="lSM-Yb-LKp"/>
                         <segue destination="zZz-CP-At3" kind="show" identifier="savedToStyle" animates="NO" id="Hx7-D2-ByB"/>
                         <segue destination="Hb9-mQ-xvb" kind="show" identifier="savedToHelp" animates="NO" id="RbE-gc-PP3"/>
@@ -621,7 +633,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ABD-88-kCI" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1756" y="1216.6416791604199"/>
+            <point key="canvasLocation" x="-1756.521739130435" y="1216.304347826087"/>
         </scene>
         <!--Help-->
         <scene sceneID="s04-lb-RS3">
@@ -757,7 +769,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="building" width="208" height="186"/>
         <image name="filledFolder" width="111" height="99"/>
         <image name="filledQuestion" width="111" height="111"/>
         <image name="folder" width="55" height="49"/>
@@ -771,9 +782,9 @@
         <image name="saveButton" width="31" height="37"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ZCJ-RS-4kr"/>
-        <segue reference="i5H-f2-qNd"/>
-        <segue reference="odS-TM-fjh"/>
-        <segue reference="pmT-3f-g2T"/>
+        <segue reference="IrF-Sp-FHS"/>
+        <segue reference="Hx7-D2-ByB"/>
+        <segue reference="lSM-Yb-LKp"/>
+        <segue reference="RbE-gc-PP3"/>
     </inferredMetricsTieBreakers>
 </document>

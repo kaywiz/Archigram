@@ -18,6 +18,8 @@ import UIKit
     var imageToAnalyze: UIImage!
     var tagText: String!
     var arrayOfTags: NSMutableArray!
+    let defaults = UserDefaults.standard
+    var imgCount: Double = 0
     
     
     @IBOutlet var questionView: UIView!
@@ -392,10 +394,36 @@ import UIKit
         self.performSegue(withIdentifier: "goBack", sender: self)
     }
     
-    @IBAction func saveButton(_ sender: Any) {
+    //save to camera roll and user defaults
+
+    @IBAction func saveImg(_ sender: Any) {
         if let photoSave = imageDisplay.image {
+            
             UIImageWriteToSavedPhotosAlbum(photoSave, nil, nil, nil)
+            print("image is saved to album")
+            let imageData = UIImageJPEGRepresentation(photoSave, 1)
+            /*
+            let relativePath = "image_\(NSDate.timeIntervalSinceReferenceDate).jpg"
+            let path = self.documentsPathForFileName(name: relativePath)
+            let imgURL = NSURL(string: path)
+            try? imageData?.write(to: imgURL as! URL)
+ */
+            defaults.set(imageData, forKey: "\(imgCount)")
+            defaults.synchronize()
         }
+        imgCount += 1
+        defaults.set(imgCount, forKey: "imgCount")
+    }
+
+    
+    //get full document path
+    func documentsPathForFileName(name: String) -> String {
+        let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true);
+        let path = paths[0] as String;
+        //let fullPath = path.stringByAppendingPathComponent(name)
+        let fullPath = path.appending(name)
+        
+        return fullPath
     }
     
     @IBAction func wiki(_ sender: Any) {
